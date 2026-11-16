@@ -100,27 +100,44 @@ yourself resets the reminder history, so you still get the 21/14/7/3/1/0-day nud
 
 ---
 
-## Running it in the cloud (GitHub Actions)
+## Running it in the cloud (GitHub Actions) — already set up
+
+Repository: **https://github.com/rav054/vacancy-bot**
+Live dashboard: **https://rav054.github.io/vacancy-bot/**
 
 `.github/workflows/check.yml` runs the check twice a day (08:00 and 16:30 IST), commits
-the refreshed `data/` and `docs/`, and publishes the dashboard to GitHub Pages.
+the refreshed `data/` and `docs/`, and publishes the dashboard to GitHub Pages. Pages is
+set to the GitHub Actions source and Actions has read-and-write permission, so nothing
+further needs configuring.
 
-1. Create a repository and push this folder:
-
-```bash
-git init && git add . && git commit -m "Add vacancy bot" && git branch -M main
-```
+To run it on demand:
 
 ```bash
-git remote add origin https://github.com/<you>/vacancy-bot.git && git push -u origin main
+"/c/Program Files/GitHub CLI/gh.exe" workflow run "Check vacancies" --ref main
 ```
 
-2. In the repository: **Settings → Pages → Source → GitHub Actions**.
-3. **Settings → Actions → General → Workflow permissions → Read and write**.
-4. **Actions → Check vacancies → Run workflow** once, to confirm it works.
+### Your PC and the cloud see different sites
 
-Your dashboard then lives at `https://<you>.github.io/vacancy-bot/` — reachable from
-your phone, and updated whether or not your PC is on.
+This is worth knowing. Several Indian government sites answer only Indian IP addresses,
+and a few `.icar.gov.in` hosts do not resolve on Indian ISPs at all. So the two runs
+cover slightly different ground:
+
+| Source | Your PC | GitHub runner |
+|---|---|---|
+| NABARD career notices | ✅ | ❌ refused |
+| DRDO RAC | ✅ | ❌ refused |
+| everything else (29 sources) | ✅ | ✅ |
+
+Sources with this behaviour are marked `geo_restricted: true`, and the dashboard's
+Source health panel reports them as a skip rather than an error. A local run therefore
+adds real coverage — `run_check.cmd` does a `git pull --rebase --autostash` first so it
+starts from the latest cloud result.
+
+Nothing is pushed back automatically. To publish what a local run found:
+
+```bash
+git add data docs && git commit -m "Local check" && git push
+```
 
 ### Desktop alerts from the cloud run
 
@@ -128,13 +145,13 @@ GitHub Actions cannot pop a toast on your machine, so pull its results and notif
 locally:
 
 ```bash
-python notify_local.py --from-url https://<you>.github.io/vacancy-bot
+python notify_local.py --from-url https://rav054.github.io/vacancy-bot
 ```
 
 To have that happen by itself, add a Windows scheduled task:
 
 ```powershell
-schtasks /create /tn "Vacancy alerts" /tr "python \"F:\Apps\Vacancy bot\notify_local.py\" --from-url https://<you>.github.io/vacancy-bot" /sc daily /st 09:00
+schtasks /create /tn "Vacancy alerts" /tr "python \"F:\Apps\Vacancy bot\notify_local.py\" --from-url https://rav054.github.io/vacancy-bot" /sc daily /st 09:00
 ```
 
 Already-announced alerts are remembered in `data/notified_local.json`, so you are never
@@ -196,6 +213,8 @@ adds its own. Edit freely; the dashboard picks changes up on the next rebuild.
 - **Some `*.icar.gov.in` hosts do not resolve from many Indian ISPs** (IISS, NBSS&LUP,
   CSSRI). IISS Bhopal is read from `iiss.res.in` instead, which works; NBSS&LUP and
   CSSRI notices arrive via ICAR-IISR's board and the ICAR soil news feed.
+- **NABARD and DRDO RAC refuse the GitHub runner's IP**, so the cloud run skips them.
+  Run locally now and then to cover those two.
 - **`asrb.gov.in` serves an incomplete TLS chain**, so that one source is fetched with
   `insecure: true` in `sources.yaml`. It is a read-only fetch of a public notice board.
 - **A quiet board is not a broken bot.** Check the *Source health* panel at the bottom

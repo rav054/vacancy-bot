@@ -261,8 +261,11 @@ news_filter:
 #     central | banking | psu | state | academia | research | fellowship |
 #     private | international
 #   insecure: true      - site serves a broken TLS chain; read it anyway
-#   may_fail_locally: true - host often unreachable from home ISPs but resolves
-#                            on the GitHub Actions runner
+#   geo_restricted: true - the host answers from some networks and not others
+#                          (several Indian government sites refuse non-Indian IPs,
+#                          and some .icar.gov.in hosts do not resolve on Indian
+#                          ISPs). A failure here is reported as a skip, not an
+#                          error, because it depends on where the check ran.
 # ---------------------------------------------------------------------------
 sources:
 
@@ -380,6 +383,8 @@ sources:
     url: "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
     apply_page: "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
     checklist: nabard
+    # Reachable from India, refused from the GitHub runner's IP range.
+    geo_restricted: true
     link_must_match: ["advert", "advtert", "recruitment", "notification", "vacancy", "engagement"]
     # NABARD names the cadre, not the discipline, in its advertisement titles.
     boost_phrases: ["rdbs", "grade a", "grade b", "development assistant"]
@@ -459,6 +464,8 @@ sources:
     url: "https://rac.gov.in/"
     apply_page: "https://rac.gov.in/"
     checklist: central
+    # Reachable from India, refused from the GitHub runner's IP range.
+    geo_restricted: true
     link_must_match: ["advertisement", "recruitment", "vacancy", "applications are invited"]
 
   - id: central-agri-news

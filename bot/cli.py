@@ -69,9 +69,9 @@ def cmd_check(args: argparse.Namespace) -> int:
             raw = parsers.run_parser(body, source)
         except Exception as exc:  # noqa: BLE001 - recorded, run continues
             health[sid] = {"ok": False, "error": str(exc)[:200],
-                           "expected": bool(source.get("may_fail_locally")),
+                           "expected": bool(source.get("geo_restricted")),
                            "at": dt.datetime.now().isoformat(timespec="seconds")}
-            tag = "skip" if source.get("may_fail_locally") else "fail"
+            tag = "skip" if source.get("geo_restricted") else "fail"
             print(f"  [{tag}] {sid}: {str(exc)[:110]}", file=sys.stderr)
             continue
 
