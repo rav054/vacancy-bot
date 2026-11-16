@@ -1,17 +1,4 @@
 {
-  "generated": "2026-11-16T12:41:17",
-  "events": [
-    {
-      "kind": "deadline",
-      "id": "iisr-9805d75a0e22",
-      "org": "ICAR-IISR Kozhikode (also carries other ICAR notices)",
-      "title": "Vacancy Notification for the post of Young Professional I (01 Post - Library) at ICAR-IISR, Kozhikode on 17-11-2026",
-      "url": "https://www.spices.res.in/storage/app/public/media/vacancy_notificaiton_Young_Professional_-l__Library_.pdf",
-      "apply_page": "https://www.spices.res.in/",
-      "days_left": 1,
-      "last_date": "2026-11-17",
-      "threshold": 1,
-      "urgency": "critical"
-    }
-  ]
+  "generated": "2026-11-16T07:15:23",
+  "events": []
 }
