@@ -108,6 +108,14 @@ def cmd_check(args: argparse.Namespace) -> int:
             )
             if relevance < threshold:
                 continue
+            # Don't ingest what prune() would drop again on the same run; it made
+            # every run report a misleading "N new, N archived".
+            archive_after = int(settings.get("archive_after_days", 30))
+            if entry.get("last_date"):
+                closed_for = (dt.date.today() - dt.date.fromisoformat(entry["last_date"])).days
+                if closed_for > archive_after:
+                    continue
+
             item_id = store.make_id(sid, entry["title"], entry.get("advt_no", ""), entry["url"])
             payload = dict(entry)
             payload.update({

@@ -117,7 +117,8 @@
         1,
         3,
         7,
-        14
+        14,
+        21
       ],
       "checked_items": [],
       "first_seen": "2026-11-16",
@@ -742,8 +743,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16",
-      "enriched": true
+      "last_seen": "2026-11-16"
     },
     "sau-news-5928305df0f8": {
       "title": "IIT (BHU) Varanasi Recruitment 2026 – Apply Online for 8 Project Assistant, JRF and More Posts",
@@ -773,8 +773,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16",
-      "enriched": true
+      "last_seen": "2026-11-16"
     },
     "sau-news-29aba8357e1a": {
       "title": "BHU Young Professional Recruitment 2026 – Apply Online for 4 Posts",
@@ -804,8 +803,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16",
-      "enriched": true
+      "last_seen": "2026-11-16"
     },
     "sau-news-42ae14933357": {
       "title": "CCS HAU Junior Research Fellow Recruitment 2026 – Apply Offline",
@@ -835,201 +833,200 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16",
-      "enriched": true
+      "last_seen": "2026-11-16"
     }
   },
   "meta": {
-    "last_run": "2026-11-16T12:37:03",
-    "new_count": 50,
+    "last_run": "2026-11-16T12:41:17",
+    "new_count": 0,
     "event_count": 1
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
-      "found": 46,
-      "at": "2026-11-16T12:35:51"
+      "found": 0,
+      "at": "2026-11-16T12:39:09"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
-      "found": 2,
-      "at": "2026-11-16T12:35:52"
+      "found": 0,
+      "at": "2026-11-16T12:39:10"
     },
     "asrb": {
       "ok": true,
       "scanned": 12,
       "found": 1,
-      "at": "2026-11-16T12:35:52"
+      "at": "2026-11-16T12:39:10"
     },
     "iisr": {
       "ok": true,
       "scanned": 4,
       "found": 3,
-      "at": "2026-11-16T12:35:53"
+      "at": "2026-11-16T12:39:11"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
-      "found": 4,
-      "at": "2026-11-16T12:35:53"
+      "found": 0,
+      "at": "2026-11-16T12:39:11"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-16T12:35:53"
+      "at": "2026-11-16T12:39:11"
     },
     "icar-soil-news": {
       "ok": true,
       "scanned": 4,
       "found": 1,
-      "at": "2026-11-16T12:35:54"
+      "at": "2026-11-16T12:39:12"
     },
     "icar-news": {
       "ok": true,
       "scanned": 14,
       "found": 1,
-      "at": "2026-11-16T12:35:55"
+      "at": "2026-11-16T12:39:16"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 43,
+      "scanned": 42,
       "found": 5,
-      "at": "2026-11-16T12:35:55"
+      "at": "2026-11-16T12:39:17"
     },
     "ibps": {
       "ok": true,
       "scanned": 8,
       "found": 3,
-      "at": "2026-11-16T12:35:57"
+      "at": "2026-11-16T12:39:18"
     },
     "nabard": {
       "ok": true,
       "scanned": 8,
       "found": 0,
-      "at": "2026-11-16T12:35:58"
+      "at": "2026-11-16T12:39:20"
     },
     "nabard-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-16T12:35:59"
+      "at": "2026-11-16T12:39:20"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 8,
       "found": 0,
-      "at": "2026-11-16T12:36:00"
+      "at": "2026-11-16T12:39:21"
     },
     "iffco-news": {
       "ok": true,
       "scanned": 10,
       "found": 1,
-      "at": "2026-11-16T12:36:00"
+      "at": "2026-11-16T12:39:21"
     },
     "fert-psu-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-16T12:36:01"
+      "at": "2026-11-16T12:39:22"
     },
     "fci-cwc-news": {
       "ok": true,
       "scanned": 33,
       "found": 0,
-      "at": "2026-11-16T12:36:02"
+      "at": "2026-11-16T12:39:23"
     },
     "dairy-coop-news": {
       "ok": true,
-      "scanned": 4,
+      "scanned": 3,
       "found": 0,
-      "at": "2026-11-16T12:36:02"
+      "at": "2026-11-16T12:39:24"
     },
     "upsc-news": {
       "ok": true,
       "scanned": 34,
       "found": 0,
-      "at": "2026-11-16T12:36:03"
+      "at": "2026-11-16T12:39:24"
     },
     "rac-drdo": {
       "ok": true,
       "scanned": 1,
       "found": 1,
-      "at": "2026-11-16T12:36:03"
+      "at": "2026-11-16T12:39:24"
     },
     "central-agri-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-16T12:36:04"
+      "at": "2026-11-16T12:39:25"
     },
     "forest-soil-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-16T12:36:05"
+      "at": "2026-11-16T12:39:26"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 33,
+      "scanned": 32,
       "found": 0,
-      "at": "2026-11-16T12:36:06"
+      "at": "2026-11-16T12:39:27"
     },
     "up-agri-news": {
       "ok": true,
       "scanned": 4,
       "found": 0,
-      "at": "2026-11-16T12:36:06"
+      "at": "2026-11-16T12:39:27"
     },
     "state-psc-news": {
       "ok": true,
       "scanned": 21,
       "found": 0,
-      "at": "2026-11-16T12:36:07"
+      "at": "2026-11-16T12:39:28"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 2,
       "found": 1,
-      "at": "2026-11-16T12:36:07"
+      "at": "2026-11-16T12:39:29"
     },
     "pau": {
       "ok": true,
       "scanned": 2,
       "found": 0,
-      "at": "2026-11-16T12:37:00"
+      "at": "2026-11-16T12:41:13"
     },
     "professor-news": {
       "ok": true,
       "scanned": 23,
       "found": 6,
-      "at": "2026-11-16T12:37:00"
+      "at": "2026-11-16T12:41:14"
     },
     "sau-news": {
       "ok": true,
       "scanned": 30,
       "found": 6,
-      "at": "2026-11-16T12:37:01"
+      "at": "2026-11-16T12:41:15"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-16T12:37:02"
+      "at": "2026-11-16T12:41:16"
     },
     "private-agri-news": {
       "ok": true,
       "scanned": 33,
       "found": 0,
-      "at": "2026-11-16T12:37:02"
+      "at": "2026-11-16T12:41:17"
     },
     "cgiar-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-16T12:37:03"
+      "at": "2026-11-16T12:41:17"
     }
   }
 }

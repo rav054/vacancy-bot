@@ -36,23 +36,25 @@ def build_events(data: dict, reminder_days: list[int], today: dt.date | None = N
 
         if left is None or left < 0:
             continue
-        # Fire the tightest threshold that has been crossed and not yet sent.
-        for threshold in sorted(reminder_days):
-            if left <= threshold and threshold not in notified:
-                notified.append(threshold)
-                events.append({
-                    "kind": "deadline",
-                    "id": item_id,
-                    "org": item.get("org", ""),
-                    "title": item.get("title", ""),
-                    "url": item.get("url", ""),
-                    "apply_page": item.get("apply_page", ""),
-                    "days_left": left,
-                    "last_date": effective_last_date(item).isoformat(),
-                    "threshold": threshold,
-                    "urgency": "critical" if left <= 3 else "warning",
-                })
-                break
+        # Every threshold at or above days-left has now been crossed. Mark them
+        # all as sent, or the next run fires again for each wider one.
+        crossed = sorted(t for t in reminder_days if left <= t)
+        if not crossed or all(t in notified for t in crossed):
+            continue
+        notified.extend(t for t in crossed if t not in notified)
+        events.append({
+            "kind": "deadline",
+            "id": item_id,
+            "org": item.get("org", ""),
+            "title": item.get("title", ""),
+            "url": item.get("url", ""),
+            "apply_page": item.get("apply_page", ""),
+            "days_left": left,
+            "last_date": effective_last_date(item).isoformat(),
+            # The tightest threshold crossed is the one that describes the urgency.
+            "threshold": crossed[0],
+            "urgency": "critical" if left <= 3 else "warning",
+        })
 
     order = {"critical": 0, "warning": 1, "new": 2}
     events.sort(key=lambda e: (order.get(e["urgency"], 3), e.get("days_left") or 999))

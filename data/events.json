@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T12:37:03",
+  "generated": "2026-11-16T12:41:17",
   "events": [
     {
       "kind": "deadline",
@@ -10,7 +10,7 @@
       "apply_page": "https://www.spices.res.in/",
       "days_left": 1,
       "last_date": "2026-11-17",
-      "threshold": 14,
+      "threshold": 1,
       "urgency": "critical"
     }
   ]
