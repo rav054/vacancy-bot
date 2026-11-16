@@ -1,0 +1,182 @@
+# Document / preparation checklists.
+# "common" is attached to every vacancy; the family block adds the extras.
+# Tick state is saved in your browser on the dashboard (per vacancy).
+
+common:
+  title: "Always needed"
+  items:
+    - "Recent passport photo — white background, scanned (keep 20KB / 50KB / 100KB versions)"
+    - "Signature scan (black ink on white paper)"
+    - "Left thumb impression scan"
+    - "Handwritten declaration (write it fresh per the notification's exact wording)"
+    - "Class 10 marksheet + certificate (date-of-birth proof)"
+    - "Class 12 marksheet + certificate"
+    - "B.Sc. Agriculture — degree/provisional certificate + all semester marksheets"
+    - "M.Sc. Soil Science — degree/provisional certificate + all semester marksheets"
+    - "Ph.D. Soil Science — degree, or provisional/thesis-submission certificate"
+    - "Aadhaar card"
+    - "PAN card"
+    - "Category certificate (SC/ST/OBC-NCL/EWS) in the central or state format the post asks for"
+    - "OBC-NCL / EWS certificate issued in the current financial year — check validity date"
+    - "PwBD certificate (if applicable)"
+    - "Domicile certificate"
+    - "Experience certificates / internship letters"
+    - "NOC from current employer (if in service)"
+    - "Active email ID and mobile number you will keep for the whole cycle"
+    - "Debit card / UPI ready for the application fee"
+  after_submitting:
+    - "Pay the fee and save the transaction ID"
+    - "Download the final confirmation page as PDF"
+    - "Note the registration number and password somewhere safe"
+    - "Verify the photo and signature appear correctly on the confirmation page"
+    - "Diarise the exam/admit-card date"
+
+families:
+  icar:
+    title: "ICAR / ASRB (ARS, NET, SMS, STO, Technical Assistant, RMP)"
+    items:
+      - "ICAR NET / ARS score card (if the post requires it)"
+      - "Published papers list with NAAS rating of each journal"
+      - "ICAR score card / API sheet prepared as per the advertisement proforma"
+      - "Research experience certificate on institute letterhead"
+      - "Caste certificate in the Government of India format"
+      - "Self-attested copies of everything — ASRB asks for document upload after shortlisting"
+      - "Check whether the post needs OASIS/ASRB online registration separately"
+
+  ibps:
+    title: "IBPS AFO / Specialist Officer (CRP-SPL)"
+    items:
+      - "Agriculture degree with percentage — IBPS asks for exact % (not CGPA) in some fields"
+      - "CGPA-to-percentage conversion certificate from your university"
+      - "Preference order of participating banks decided in advance"
+      - "Photo/signature in IBPS's exact pixel sizes (200x230 photo, 140x60 signature)"
+      - "Local language proficiency details"
+      - "Check the AFO vacancy count bank-wise before paying the fee"
+
+  nabard:
+    title: "NABARD Grade A / Grade B"
+    items:
+      - "Agriculture degree percentage (NABARD specifies minimum aggregate)"
+      - "Decide the discipline/stream you are applying under (Agriculture, Soil Science, etc.)"
+      - "Statement of purpose material for the interview stage"
+      - "Economic & Social Issues / Agriculture & Rural Development prep notes"
+      - "Check the discipline-wise vacancy table — Soil Science is listed separately some years"
+
+  iffco:
+    title: "IFFCO Agriculture Graduate Trainee (AGT)"
+    items:
+      - "Four-year regular full-time B.Sc. Agriculture degree (AGT insists on regular mode)"
+      - "Age proof — upper limit is usually 30 years as on 1 September"
+      - "Willingness for field posting anywhere in India"
+      - "Apply only through the official IFFCO careers portal (no other mode is accepted)"
+      - "Final-year students: check whether provisional results are allowed this cycle"
+
+  upsssc:
+    title: "UPSSSC (UP subordinate services)"
+    items:
+      - "UPSSSC PET score card for the current cycle — MANDATORY, no PET means no application"
+      - "One Time Registration (OTR) number"
+      - "UP domicile certificate"
+      - "Hindi/Sanskrit subject proof if the post requires it"
+      - "Caste certificate in the UP state format (central format is not accepted)"
+      - "Check reservation for women / dependants of freedom fighters etc."
+
+  isro:
+    title: "ISRO / SAC (Scientist-Engineer, JRF, RA, Project Scientist)"
+    items:
+      - "GATE / UGC-NET / CSIR-NET / ICAR-NET score card (JRF posts need a valid national test)"
+      - "Minimum 60% or 6.84 CGPA in the qualifying degree — compute and keep proof"
+      - "Research proposal / statement of interest in remote sensing or soil applications"
+      - "Publication list with DOIs"
+      - "Two referee names with designations and emails"
+      - "Apply on the SAC/ISRO portal within the usually short 2-3 week window"
+
+  upsc:
+    title: "UPSC (IFoS, Assistant Director, lateral posts)"
+    items:
+      - "One Time Registration (OTR) on upsconline.gov.in kept up to date"
+      - "Decide your optional subject — Agriculture is available for IFoS and CSE"
+      - "Experience certificates with exact dates for Recruitment-by-Selection posts"
+      - "Research/publication list for scientific posts"
+      - "Certificates in the exact central government proforma (Annexure as in the advt)"
+      - "Employer's NOC and cadre-clearance if you are in government service"
+      - "Check the physical standards and medical requirements for IFoS"
+
+  central:
+    title: "Central government / DRDO / scientific posts"
+    items:
+      - "GATE / NET score card if the post specifies a national test"
+      - "Degree percentage computed as the advertisement defines it (not CGPA)"
+      - "Caste/EWS certificate in the Government of India format"
+      - "Experience certificates on letterhead with designation and dates"
+      - "Publication list with DOIs"
+      - "Employer's NOC if in service"
+      - "Check whether a hard copy must also be posted, and by when"
+
+  psu:
+    title: "PSU / corporation (FCI, CWC, NDDB, fertiliser & seed)"
+    items:
+      - "Degree percentage as the advertisement defines it"
+      - "Age proof against the cut-off date stated in the notification"
+      - "Willingness for posting anywhere in India"
+      - "Category certificate in the central format, issued recently for OBC-NCL/EWS"
+      - "Experience certificates if applying to an experienced grade"
+      - "Check the bond / service-agreement clause before accepting a trainee post"
+      - "Apply only on the official portal named in the notification"
+
+  state-psc:
+    title: "State PSC / state agriculture department"
+    items:
+      - "Domicile certificate of that state (most posts reserve for state domiciles)"
+      - "Caste certificate in that state's own format — the central format is often rejected"
+      - "State-level one-time registration / OTR number if the commission uses one"
+      - "Local language proof if the post requires it (Hindi, Marathi, Tamil etc.)"
+      - "Check the state-specific age relaxation for your category"
+      - "Demand draft or online fee as that commission specifies"
+      - "Keep a printed copy — several state commissions ask for a hard copy later"
+
+  fellowship:
+    title: "Fellowship (JRF / SRF / RA / post-doc)"
+    items:
+      - "Valid NET / GATE / ICAR-NET / CSIR-UGC NET score card"
+      - "Masters marksheets with percentage and CGPA conversion"
+      - "Research proposal or statement of interest tuned to the project"
+      - "Publication list with DOIs and impact factors"
+      - "Two referee names with designations and email IDs"
+      - "No-objection from your current guide or employer"
+      - "Walk-in posts: carry originals plus two self-attested photocopy sets"
+      - "Check the age limit — JRF posts usually cap at 35 (relaxed for women/SC/ST)"
+
+  private:
+    title: "Private sector / agribusiness"
+    items:
+      - "CV tailored to the role, one page per 5 years of experience"
+      - "LinkedIn profile current and matching the CV dates"
+      - "Degree certificates and consolidated marksheet"
+      - "Two professional references with contact details"
+      - "Salary expectation and notice period decided in advance"
+      - "Willingness for field/territory posting stated clearly"
+
+  international:
+    title: "CGIAR / international institutes"
+    items:
+      - "CV in the institute's format (CGIAR centres often require their own template)"
+      - "Cover letter addressing each listed selection criterion separately"
+      - "Passport — valid for at least 18 months"
+      - "Publication list with DOIs and author position"
+      - "Three referees with institutional email addresses"
+      - "English proficiency evidence if asked (IELTS/TOEFL or medium-of-instruction letter)"
+      - "Note the time zone of the stated deadline — it is usually not IST"
+
+  professor:
+    title: "Professor / Assistant Professor (Agri universities)"
+    items:
+      - "Full CV in the university's prescribed proforma"
+      - "API / Academic score sheet with self-computed marks and page-number evidence"
+      - "NET/SET/SLET certificate or Ph.D. exemption proof"
+      - "All publications as a single indexed PDF with journal impact factor / NAAS rating"
+      - "Teaching experience certificates with exact joining and leaving dates"
+      - "Conference, seminar and training participation certificates"
+      - "Ph.D. award notification letter (not just the degree)"
+      - "Demand draft / online fee as specified — many universities still want a DD"
+      - "Hard-copy set posted before the deadline if the advertisement demands it"

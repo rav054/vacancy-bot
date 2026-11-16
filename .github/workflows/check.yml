@@ -1,0 +1,69 @@
+name: Check vacancies
+
+on:
+  schedule:
+    # 08:00 and 16:30 India time (02:30 and 11:00 UTC), every day.
+    - cron: "30 2 * * *"
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit the refreshed data/ and docs/
+  pages: write      # publish the dashboard
+  id-token: write
+
+concurrency:
+  group: vacancy-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check every source
+        run: python -m bot check
+
+      - name: Commit refreshed state
+        run: |
+          git config user.name  "vacancy-bot"
+          git config user.email "vacancy-bot@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "chore: vacancy check $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Stage the dashboard for Pages
+        run: |
+          mkdir -p _site/data
+          cp docs/index.html _site/index.html
+          cp data/events.json data/vacancies.json _site/data/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publish:
+    needs: check
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

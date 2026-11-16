@@ -1,0 +1,575 @@
+# Vacancy Bot - source and matching configuration
+# Edit this file to add organisations, change keywords, or tune reminders.
+
+settings:
+  # Days before the last date on which you want to be reminded.
+  reminder_days: [21, 14, 7, 3, 1, 0]
+  # Minimum relevance score for an item to be kept (see keywords below).
+  relevance_threshold: 3
+  # Items whose last date passed more than this many days ago are archived.
+  archive_after_days: 30
+  # Keep at most this many headlines per news source per run.
+  news_items_per_source: 6
+  # Undated news leads older than this are dropped, so the board stays current.
+  # Indian application windows run 3-6 weeks, so 45 days keeps live ones and
+  # discards cycles that have almost certainly closed.
+  news_lead_ttl_days: 45
+  # Appended to every news query as Google News's `when:` operator. Without it
+  # the feeds rank by relevance and are dominated by years-old stories.
+  news_window: "45d"
+  # How many undated notices to open per run, hunting for the real last date.
+  enrich_budget: 20
+  http_timeout: 30
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) VacancyBot/1.0"
+
+profile:
+  name: "Agriculture / Soil Science aspirant"
+  qualifications:
+    - "B.Sc. Agriculture"
+    - "M.Sc. Soil Science"
+    - "Ph.D. Soil Science"
+
+# Relevance scoring. A title gets the sum of the weights of every phrase it
+# contains. Anything scoring below settings.relevance_threshold is dropped.
+keywords:
+  strong:      # weight 4
+    - soil science
+    - soil chemistry
+    - soil physics
+    - soil microbiology
+    - soil fertility
+    - soil conservation
+    - soil survey
+    - soil testing
+    - agriculture field officer
+    - agriculture graduate trainee
+    - agricultural scientist
+    - agriculture development officer
+    - agriculture officer
+    - block agriculture
+    - agronomy
+    - agronomist
+    - horticulture
+    - plant nutrition
+    - land use planning
+    - agriculture extension
+    - subject matter specialist
+    - krishi
+  medium:      # weight 3
+    - agriculture
+    - agricultural
+    - agri
+    - soil
+    - farm
+    - fertiliser
+    - fertilizer
+    - seed
+    - plant science
+    - plant protection
+    - crop
+    - remote sensing
+    - geoinformatics
+    - geospatial
+    - land resources
+    - watershed
+    - natural resource management
+    - rural development
+    - food technology
+    - quality control
+    - specialist officer
+    - assistant professor
+    - associate professor
+    - professor
+    - lecturer
+    - scientist
+    - research associate
+    - junior research fellow
+    - senior research fellow
+    - young professional
+    - jrf
+    - srf
+    - technical assistant
+    - field officer
+    - development officer
+    - management trainee
+    - probationary officer
+  weak:        # weight 1
+    - trainee
+    - officer
+    - grade a
+    - grade b
+    - recruitment
+    - vacancy
+    - advertisement
+    - apprentice
+  exclude:     # drop outright, whatever else matched
+    # Post-application paperwork is not something you can apply to.
+    - result
+    - cut-off
+    - cut off
+    - cutoff
+    - shortlisted
+    - merit list
+    - call letter
+    - admit card
+    - answer key
+    - score card
+    - scorecard
+    - marks of
+    - examination marks
+    - interview schedule
+    - provisionally qualified
+    - corrigendum
+    - "list of candidates"
+    - "document verification"
+    - postponement
+    - empanelment
+    - "recruitment fraud"
+    - tender
+    - "expression of interest"
+    # Posts outside your qualifications.
+    - typist
+    - stenographer
+    - driver
+    - "staff car"
+    - fireman
+    - nurse
+    - "security guard"
+    - sweeper
+    - cook
+    - plumber
+    - electrician
+    - "hindi translator"
+    - "fire officer"
+    - "civil engineer"
+    - "electrical engineer"
+    - "mechanical engineer"
+    # Bank/PSU specialisms that are not open to an agriculture degree.
+    - security
+    - "(fire"
+    - "fire)"
+    - "law officer"
+    - "chartered accountant"
+    - forex
+    - treasury
+    - derivative
+    - "it officer"
+    - cyber
+    - architect
+    - actuar
+    - "company secretary"
+    - "medical officer"
+    - allopathy
+    - pharmacist
+    - "library assistant"
+    - chowkidar
+
+# Extra gate applied only to news_rss sources, which otherwise pick up press
+# releases, results and listicles alongside actual vacancy announcements.
+news_filter:
+  # The headline must contain at least one of these.
+  require:
+    - recruitment
+    - vacancy
+    - vacancies
+    - notification out
+    - notification released
+    - apply online
+    - apply offline
+    - applications invited
+    - invites application
+    - walk-in
+    - walkin
+    - registration begins
+    - registration open
+    - last date
+    - advertisement
+    - "posts out"
+    - hiring
+    - "notification 2026"
+    - "notification 2027"
+  # ...and none of these.
+  exclude:
+    - answer key
+    - admit card
+    - result out
+    - result declared
+    - results declared
+    - exam date
+    - exam schedule
+    - exam analysis
+    - cut off
+    - cutoff
+    - merit list
+    - syllabus
+    - previous year
+    - mock test
+    - question paper
+    - salary structure
+    - in hand salary
+    - top colleges
+    - best colleges
+    - career scope
+    - career options
+    - list of competitive
+    - list of exams
+    - "why the degree"
+    - paper leak
+    - visits
+    - celebrates
+    - foundation day
+    - signs mou
+    - inks moa
+    - interaction
+    - consultation
+    - training programme
+    - workshop
+    - webinar
+    - awarded
+    - felicitated
+    - inaugurat
+    - review meeting
+    - excel in
+    - demonstrated
+    - "scope of agriculture"
+    - counselling
+    - admission
+    - "how to prepare"
+    - "preparation tips"
+    - "study plan"
+    - "books for"
+    - placement
+    - placements
+    - "ace tests"
+    - "exam city"
+    - "city intimation"
+    - "hall ticket"
+    - "eligibility criteria"
+    - "selection process"
+    - "cheating racket"
+    - arrests
+    - "expected vacanc"
+    - "posts expected"
+
+# ---------------------------------------------------------------------------
+# Sources.
+#   parser:   isro_table | anchors | news_rss
+#     anchors    - pulls every link on the page, matches link text
+#     isro_table - parses the ISRO "Current Opportunities" table (real dates)
+#     news_rss   - Google News RSS safety net for sites that need JavaScript
+#   category: used for the dashboard filter
+#     central | banking | psu | state | academia | research | fellowship |
+#     private | international
+#   insecure: true      - site serves a broken TLS chain; read it anyway
+#   may_fail_locally: true - host often unreachable from home ISPs but resolves
+#                            on the GitHub Actions runner
+# ---------------------------------------------------------------------------
+sources:
+
+  # ---------------- Space / remote sensing ----------------
+  - id: isro
+    org: "ISRO (incl. Space Applications Centre, Ahmedabad)"
+    category: central
+    parser: isro_table
+    url: "https://www.isro.gov.in/ISRO_EN/ViewAllOpportunities.html"
+    apply_page: "https://www.isro.gov.in/ISRO_EN/ViewAllOpportunities.html"
+    checklist: isro
+    boost_phrases: ["space applications centre", "sac"]
+
+  - id: nrsc
+    org: "NRSC Hyderabad (ISRO remote sensing)"
+    category: central
+    parser: anchors
+    url: "https://www.nrsc.gov.in/"
+    apply_page: "https://www.nrsc.gov.in/"
+    checklist: isro
+    link_must_match: ["advertisement no", "recruitment for", "recruitment to", "vacancy",
+                      "applications are invited", "walk-in"]
+    boost_phrases: ["remote sensing", "geospatial"]
+
+  # ---------------- ICAR / agricultural research ----------------
+  - id: asrb
+    org: "ASRB / ICAR (ARS, NET, STO, Technical Assistant, RMP)"
+    category: research
+    parser: anchors
+    url: "https://asrb.gov.in/"
+    apply_page: "https://asrb.gov.in/"
+    # asrb.gov.in serves an incomplete TLS chain; we only read its public notices.
+    insecure: true
+    checklist: icar
+    link_must_match: ["notification", "advt", "vacancy", "recruitment", "examination"]
+
+  - id: iisr
+    org: "ICAR-IISR Kozhikode (also carries other ICAR notices)"
+    category: research
+    parser: anchors
+    url: "https://www.spices.res.in/"
+    apply_page: "https://www.spices.res.in/"
+    checklist: icar
+    link_must_match: ["vacancy", "recruitment", "walk-in", "walk in", "applications are invited",
+                      "notification for the post", "engagement"]
+
+  # The institute's own domain; iiss.icar.gov.in does not resolve from many ISPs.
+  - id: iiss-bhopal
+    org: "ICAR-IISS Bhopal (Indian Institute of Soil Science)"
+    category: research
+    parser: anchors
+    url: "https://iiss.res.in/recruitment.php"
+    apply_page: "https://iiss.res.in/recruitment.php"
+    checklist: icar
+    link_must_match: ["vacancy", "recruitment", "walk-in", "walk in", "advt", "notification",
+                      "applications are invited", "post", "interview for"]
+    boost_phrases: ["soil"]
+
+    # The page is an archive, newest first; only the recent block matters.
+    max_items: 30
+  - id: iari
+    org: "ICAR-IARI New Delhi"
+    category: research
+    parser: anchors
+    url: "https://www.iari.res.in/"
+    apply_page: "https://www.iari.res.in/"
+    checklist: icar
+    link_must_match: ["vacancy", "recruitment", "walk-in", "walk in", "advt",
+                      "applications are invited", "post of"]
+
+  - id: icar-soil-news
+    org: "ICAR soil & land-resource institutes"
+    category: research
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(%22ICAR%22+OR+%22IISS%22+OR+%22NBSS%22+OR+%22CSSRI%22+OR+%22IISWC%22+OR+%22CRIDA%22)+(%22soil+science%22+OR+%22soil+scientist%22+OR+%22land+use%22)+(recruitment+OR+vacancy+OR+%22walk-in%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://icar.org.in/"
+    checklist: icar
+
+    require_in_title: ["icar", "soil", "nbss", "iiss", "cssri", "iiswc", "crida", "land use"]
+  - id: icar-news
+    org: "ICAR institutes & Agricultural Universities"
+    category: research
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(ICAR+OR+%22agricultural+university%22)+(recruitment+OR+vacancy+OR+%22assistant+professor%22+OR+scientist)+(agriculture+OR+%22soil+science%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://icar.org.in/"
+    checklist: professor
+
+    require_in_title: ["icar", "university", "agricultur"]
+  - id: kvk-projects-news
+    org: "KVK / ICAR project posts (SRF, YP, Technical Assistant)"
+    category: research
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(%22Krishi+Vigyan+Kendra%22+OR+KVK+OR+%22ICAR%22)+(%22senior+research+fellow%22+OR+%22young+professional%22+OR+%22technical+assistant%22+OR+%22walk-in%22)+recruitment&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://icar.org.in/"
+    checklist: icar
+
+  # ---------------- Banking with agriculture cadres ----------------
+    require_in_title: ["kvk", "krishi vigyan", "icar", "research fellow", "young professional"]
+  - id: ibps
+    org: "IBPS (AFO / Specialist Officers, CRP-SPL)"
+    category: banking
+    parser: anchors
+    url: "https://www.ibps.in/"
+    apply_page: "https://www.ibps.in/index.php/specialist-officers/"
+    checklist: ibps
+    link_must_match: ["notification", "recruitment", "crp", "registration"]
+    # IBPS titles say "CRP-SPL", never "agriculture", so lift them explicitly.
+    boost_phrases: ["crp", "spl", "specialist"]
+
+  - id: nabard
+    org: "NABARD (career notices)"
+    category: banking
+    parser: anchors
+    # cid=693 is the live "Career Notices" feed; the other cids are empty archives.
+    url: "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
+    apply_page: "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
+    checklist: nabard
+    link_must_match: ["advert", "advtert", "recruitment", "notification", "vacancy", "engagement"]
+    # NABARD names the cadre, not the discipline, in its advertisement titles.
+    boost_phrases: ["rdbs", "grade a", "grade b", "development assistant"]
+
+  - id: nabard-news
+    org: "NABARD"
+    category: banking
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=NABARD+recruitment+OR+vacancy+OR+notification+(%22Grade+A%22+OR+agriculture+OR+%22Assistant+Manager%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
+    checklist: nabard
+
+    require_in_title: ["nabard"]
+  - id: bank-agri-news
+    org: "SBI / RRB / cooperative banks (agriculture officer posts)"
+    category: banking
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(SBI+OR+%22regional+rural+bank%22+OR+%22IBPS+RRB%22+OR+%22cooperative+bank%22)+(%22agriculture+officer%22+OR+%22agriculture+field+officer%22+OR+%22rural+development+officer%22+OR+%22circle+based+officer%22)+recruitment&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://sbi.co.in/web/careers/current-openings"
+    checklist: ibps
+
+  # ---------------- Fertiliser, seed and food PSUs ----------------
+    require_in_title: ["sbi", "rrb", "bank", "cooperative", "regional rural"]
+  - id: iffco-news
+    org: "IFFCO (Agriculture Graduate Trainee)"
+    category: psu
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=IFFCO+(%22Agriculture+Graduate+Trainee%22+OR+AGT+OR+recruitment)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://careers.iffco-recruitments.in/"
+    checklist: iffco
+
+    require_in_title: ["iffco"]
+  - id: fert-psu-news
+    org: "Fertiliser & seed PSUs (KRIBHCO, NFL, RCF, FACT, NSC, PPL)"
+    category: psu
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(KRIBHCO+OR+%22National+Fertilizers%22+OR+%22Rashtriya+Chemicals%22+OR+FACT+OR+%22National+Seeds+Corporation%22+OR+%22Paradeep+Phosphates%22+OR+%22Coromandel+International%22)+(recruitment+OR+vacancy+OR+trainee+OR+%22agriculture%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://www.kribhco.net/"
+    checklist: iffco
+
+    require_in_title: ["kribhco", "fertilizer", "fertiliser", "rcf", "rashtriya", "fact", "national seeds", "paradeep", "coromandel", "nfl"]
+  - id: fci-cwc-news
+    org: "FCI / CWC / warehousing & food PSUs"
+    category: psu
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(%22Food+Corporation+of+India%22+OR+FCI+OR+%22Central+Warehousing+Corporation%22+OR+%22State+Warehousing%22)+(recruitment+OR+vacancy+OR+%22management+trainee%22)+(agriculture+OR+%22quality+control%22+OR+technical)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://fci.gov.in/recruitment"
+    checklist: psu
+
+    require_in_title: ["fci", "food corporation", "warehousing", "cwc"]
+  - id: dairy-coop-news
+    org: "NDDB / NAFED / dairy & cooperative sector"
+    category: psu
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(NDDB+OR+%22National+Dairy+Development%22+OR+NAFED+OR+%22SFAC%22+OR+%22Amul%22)+(recruitment+OR+vacancy+OR+%22management+trainee%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://www.nddb.coop/"
+    checklist: psu
+
+  # ---------------- Central government & commissions ----------------
+  # upsc.gov.in answers automated clients with 403, so it is not scraped. Its
+  # notices are followed through the news feed below; the apply_page link takes
+  # you straight to the official ORA vacancy list.
+    require_in_title: ["nddb", "dairy", "nafed", "sfac", "amul"]
+  - id: upsc-news
+    org: "UPSC (IFoS, Assistant Director & other agri posts)"
+    category: central
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=UPSC+(%22Indian+Forest+Service%22+OR+%22Assistant+Director%22+OR+%22agriculture%22+OR+%22soil%22)+(recruitment+OR+vacancy+OR+%22advertisement+no%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://upsconline.gov.in/ora/VacancyNoticePub.php"
+    checklist: upsc
+
+    require_in_title: ["upsc", "ifos", "forest service"]
+  - id: rac-drdo
+    org: "DRDO RAC / CEPTAM (Scientist & technical posts)"
+    category: central
+    parser: anchors
+    url: "https://rac.gov.in/"
+    apply_page: "https://rac.gov.in/"
+    checklist: central
+    link_must_match: ["advertisement", "recruitment", "vacancy", "applications are invited"]
+
+  - id: central-agri-news
+    org: "Central departments & commissions (SSC, UPSC, agri ministry)"
+    category: central
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(SSC+OR+UPSC+OR+%22Ministry+of+Agriculture%22+OR+%22Department+of+Agriculture%22)+(%22agriculture+officer%22+OR+%22soil+conservation%22+OR+%22Indian+Forest+Service%22+OR+%22technical+assistant+agriculture%22)+recruitment&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://ssc.gov.in/"
+    checklist: central
+
+    require_in_title: ["ssc", "upsc", "ministry", "department of agriculture", "forest service"]
+  - id: forest-soil-news
+    org: "Forest service, ICFRE & soil conservation departments"
+    category: central
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(%22Indian+Forest+Service%22+OR+ICFRE+OR+%22forest+department%22+OR+%22soil+conservation%22)+(recruitment+OR+vacancy+OR+%22range+officer%22+OR+%22soil+conservation+officer%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://icfre.gov.in/"
+    checklist: central
+
+  # ---------------- State services ----------------
+    require_in_title: ["forest", "icfre", "soil conservation"]
+  - id: upsssc-news
+    org: "UPSSSC (UP subordinate services)"
+    category: state
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=UPSSSC+(%22Pravidhik+Sahayak%22+OR+agriculture+OR+%22Technical+Assistant%22+OR+recruitment)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "http://upsssc.gov.in/AllNotifications.aspx"
+    checklist: upsssc
+
+    require_in_title: ["upsssc"]
+  - id: up-agri-news
+    org: "UP state (UPPSC, UPESSC, ADO & agriculture dept)"
+    category: state
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(UPPSC+OR+UPESSC+OR+%22Uttar+Pradesh%22)+(%22agriculture+development+officer%22+OR+%22ADO+agriculture%22+OR+%22agriculture+officer%22+OR+%22krishi%22)+recruitment&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://uppsc.up.nic.in/"
+    checklist: state-psc
+
+    require_in_title: ["uppsc", "upessc", "uttar pradesh", "up "]
+  - id: state-psc-news
+    org: "State PSCs (Agriculture Officer / ADO, all states)"
+    category: state
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(BPSC+OR+MPPSC+OR+RPSC+OR+HPSC+OR+JPSC+OR+WBPSC+OR+MPSC+OR+KPSC+OR+TNPSC+OR+APPSC+OR+TSPSC+OR+%22state+public+service+commission%22)+(%22agriculture+officer%22+OR+%22block+agriculture%22+OR+%22agriculture+development+officer%22+OR+%22agriculture+extension%22)+recruitment&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://www.bpsc.bihar.gov.in/"
+    checklist: state-psc
+
+    require_in_title: ["psc", "public service commission", "rssb", "rsmssb", "mppsc", "bpsc"]
+  - id: state-agri-dept-news
+    org: "State agriculture departments & boards"
+    category: state
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=%22agriculture+department%22+(recruitment+OR+vacancy)+(%22agriculture+assistant%22+OR+%22agriculture+supervisor%22+OR+%22soil+testing%22+OR+%22agriculture+technical+assistant%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://agriwelfare.gov.in/"
+    checklist: state-psc
+
+  # ---------------- Academia ----------------
+    require_in_title: ["agriculture department", "department of agriculture", "agriculture assistant", "agriculture supervisor", "soil testing", "agriculture technical"]
+  - id: pau
+    org: "Punjab Agricultural University"
+    category: academia
+    parser: anchors
+    url: "https://www.pau.edu/"
+    apply_page: "https://www.pau.edu/"
+    checklist: professor
+    link_must_match: ["advt", "recruitment", "applications are invited", "post of", "vacancy"]
+
+  - id: professor-news
+    org: "Professor / Assistant Professor (Soil Science & Agri)"
+    category: academia
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(%22assistant+professor%22+OR+professor)+(%22soil+science%22+OR+agronomy+OR+agriculture)+recruitment+India&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://www.ugc.gov.in/"
+    checklist: professor
+
+    require_in_title: ["professor", "lecturer", "teaching"]
+  - id: sau-news
+    org: "State Agricultural Universities (teaching & scientist posts)"
+    category: academia
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(%22agricultural+university%22+OR+TNAU+OR+PAU+OR+GBPUAT+OR+OUAT+OR+%22CCS+HAU%22+OR+ANGRAU+OR+%22BHU%22)+(recruitment+OR+vacancy+OR+%22walk-in%22)+(professor+OR+scientist+OR+%22teaching%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://icar.org.in/"
+    checklist: professor
+
+  # ---------------- Fellowships & research funding ----------------
+    require_in_title: ["university", "tnau", "pau", "gbpuat", "ouat", "hau", "angrau", "bhu"]
+  - id: fellowship-news
+    org: "Fellowships (JRF / SRF / post-doc in soil & agri sciences)"
+    category: fellowship
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(%22junior+research+fellow%22+OR+%22senior+research+fellow%22+OR+%22post+doctoral%22+OR+%22research+associate%22)+(%22soil+science%22+OR+agronomy+OR+agriculture)+(vacancy+OR+recruitment+OR+%22walk-in%22+OR+%22applications+invited%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://csirhrdg.res.in/"
+    checklist: fellowship
+
+  # ---------------- Private sector ----------------
+    require_in_title: ["research fellow", "jrf", "srf", "post doc", "postdoc", "research associate", "young professional"]
+  - id: private-agri-news
+    org: "Agri-input & agribusiness companies"
+    category: private
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(%22ITC+Agri%22+OR+%22Godrej+Agrovet%22+OR+Syngenta+OR+Bayer+OR+UPL+OR+Dhanuka+OR+%22Mahindra+Agri%22+OR+%22Tata+Chemicals%22+OR+%22Jain+Irrigation%22)+(hiring+OR+recruitment+OR+%22agronomist%22+OR+%22agriculture+graduate%22)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: ""
+    checklist: private
+
+  # ---------------- International / CGIAR ----------------
+    require_in_title: ["itc", "godrej", "syngenta", "bayer", "upl", "dhanuka", "mahindra", "tata", "jain irrigation", "agrovet"]
+  - id: cgiar-news
+    org: "CGIAR / international institutes (ICRISAT, IRRI, CIMMYT, FAO)"
+    category: international
+    parser: news_rss
+    url: "https://news.google.com/rss/search?q=(ICRISAT+OR+IRRI+OR+CIMMYT+OR+%22FAO+India%22+OR+CGIAR)+(%22soil+scientist%22+OR+agronomist+OR+%22research+fellow%22+OR+vacancy+OR+recruitment)&hl=en-IN&gl=IN&ceid=IN:en"
+    apply_page: "https://www.icrisat.org/careers/"
+    checklist: international
+    require_in_title: ["icrisat", "irri", "cimmyt", "fao", "cgiar"]
