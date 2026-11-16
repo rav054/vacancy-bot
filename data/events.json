@@ -1,4 +1,41 @@
 {
-  "generated": "2026-11-16T07:15:23",
-  "events": []
+  "generated": "2026-11-16T20:50:51",
+  "events": [
+    {
+      "kind": "new",
+      "id": "kvk-projects-news-a80b0280a947",
+      "org": "KVK / ICAR project posts (SRF, YP, Technical Assistant)",
+      "title": "ICAR CIBA Recruitment 2026 – Apply Online for 4 Young Professional, Field Assistant Posts",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0E4ZzdIRTZHNkUxb3hCWGVEaVV3MjhzWW9Qc1FhOEpnTExkUkZKbDkyV0ZRVENkTnJIU3l4ZTJsaEJfZ1VUMVU4T3haX3VPVmVFWVhSTkZkTE90TWhOUVdfbWdwNkQzOUpLbEVENXIwd0dkbmw4dG9LN084bW1uZVl3NXVOZDZWdkVkMUV2bTZyZzBTSV9xcG9tU1pmMkk4VVVTQktoSHNreVVVN1M4M2FXZDNBQm1CWDFvZjhRd1JoUVEyR1ZVUUZfT0w?oc=5",
+      "apply_page": "https://icar.org.in/",
+      "days_left": null,
+      "last_date": null,
+      "via_news": true,
+      "urgency": "new"
+    },
+    {
+      "kind": "new",
+      "id": "professor-news-c72818b64adc",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "title": "KAU Assistant Professor (Agricultural Economics) Recruitment 2026: Walk-in for 2 Posts",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTnR0dXZKUWlkNFFGN0Jlekxrc1UtMVNDcWdaRmlpbnM0ZDhyOUFjR3hYbFhvcFZPQm8xbTBWdmV3WGt6cklseWFQdkluRnNaSlhBemxHbFdqM1I4bXVZd0s5M09xVEMzWjdLN3p5eEVMZ3REMkFMZW1SZXhIM1J2YmVvcHBnNndtdldWa285YzJld0NJNkJnVkQtdE1mN0dCTWdfRUlfNnNrQUgzcnc?oc=5",
+      "apply_page": "https://www.ugc.gov.in/",
+      "days_left": null,
+      "last_date": null,
+      "via_news": true,
+      "urgency": "new"
+    },
+    {
+      "kind": "new",
+      "id": "sau-news-fa68abd4ad34",
+      "org": "State Agricultural Universities (teaching & scientist posts)",
+      "title": "ANGRAU Research Associate & Young Professional Recruitment 2026 – Walk-in for 3 Posts",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ0hkeFBMaDVYVXlTU1ZZZFZnX2NlRlhXdXh4cnZCRDdTdm91ZWJiM05BZERLazZwcnNkeU8wd1ZjRnFwX3p6ckJxUFYwbFRVWDM4RFBsSEcwYURENmlkWjR2TjRFT2VMU2V4c1M1bVRVdXRSMk1Cei1wWENJT0NqSUQ4cUdjSEJXRjJFTWlHSGhYRDZaTUNyTXNYam9ZeFVtLXlrbkFqWTRxc2M?oc=5",
+      "apply_page": "https://icar.org.in/",
+      "days_left": null,
+      "last_date": null,
+      "via_news": true,
+      "urgency": "new"
+    }
+  ]
 }

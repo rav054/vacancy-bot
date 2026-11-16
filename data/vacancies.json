@@ -521,15 +521,15 @@
       "enriched": true
     },
     "professor-news-7cafc9064aed": {
-      "title": "AAU Assistant Professor Recruitment 2026 Notification Out - Apply Online for 60 Posts",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY0NVVm5FQ0l3TTJjdkxGaks5M1ExdVhiTjd1LUljdHdMTTJfS3BBOGZWM2U4VHlkTGJFYktaVkRISGNSMTJVd1RfVVpBNWdIZWd3VE5LblhMVm1IYXBDOWRWTHQ4R3gzemZvQ2xENERKTzR4NTJJamY0RnVkRzhxNGlXZGEzQ0FIMXk2QW9XTUtJcDJNMDVVdkFRWC00a3VGSHRXaC1qeUNFbV9ib3NCbzdR?oc=5",
+      "title": "AAU Assistant Professor Recruitment 2026 Notification Out, Apply Online for 60 Posts",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzdBSUczeVY1eHZ3eTFDaTRkYjVQZkVNUF9WeGRoUml5bW85aFNmSGE3Tjhpdmd6RXJRM051aVQ1ZkdjSngzWld4WmF1dDNCbHVWRXpBbHNGWk83VWdORFlvc3hmbjRWcW9zYVFiTUJfYVgwWmxEOTR2M1VZNHF2OGxWQ0RPakh1eUVxOQ?oc=5",
       "advt_no": "",
       "location": "",
       "opening_date": null,
       "last_date": null,
-      "published": "2026-10-07",
+      "published": "2026-10-21",
       "via_news": true,
-      "context": "AAU Assistant Professor Recruitment 2026 Notification Out - Apply Online for 60 Posts  (FreeJobAlert.Com)",
+      "context": "AAU Assistant Professor Recruitment 2026 Notification Out, Apply Online for 60 Posts  (Adda247)",
       "id": "professor-news-7cafc9064aed",
       "source_id": "professor-news",
       "org": "Professor / Assistant Professor (Soil Science & Agri)",
@@ -838,199 +838,295 @@
       "first_seen": "2026-11-16",
       "last_seen": "2026-11-16",
       "enriched": true
+    },
+    "kvk-projects-news-a80b0280a947": {
+      "title": "ICAR CIBA Recruitment 2026 – Apply Online for 4 Young Professional, Field Assistant Posts",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0E4ZzdIRTZHNkUxb3hCWGVEaVV3MjhzWW9Qc1FhOEpnTExkUkZKbDkyV0ZRVENkTnJIU3l4ZTJsaEJfZ1VUMVU4T3haX3VPVmVFWVhSTkZkTE90TWhOUVdfbWdwNkQzOUpLbEVENXIwd0dkbmw4dG9LN084bW1uZVl3NXVOZDZWdkVkMUV2bTZyZzBTSV9xcG9tU1pmMkk4VVVTQktoSHNreVVVN1M4M2FXZDNBQm1CWDFvZjhRd1JoUVEyR1ZVUUZfT0w?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-16",
+      "via_news": true,
+      "context": "ICAR CIBA Recruitment 2026 – Apply Online for 4 Young Professional, Field Assistant Posts  (FreeJobAlert.Com)",
+      "id": "kvk-projects-news-a80b0280a947",
+      "source_id": "kvk-projects-news",
+      "org": "KVK / ICAR project posts (SRF, YP, Technical Assistant)",
+      "category": "research",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "icar",
+      "score": 4,
+      "matched": [
+        "young professional",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "enriched": true
+    },
+    "professor-news-c72818b64adc": {
+      "title": "KAU Assistant Professor (Agricultural Economics) Recruitment 2026: Walk-in for 2 Posts",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTnR0dXZKUWlkNFFGN0Jlekxrc1UtMVNDcWdaRmlpbnM0ZDhyOUFjR3hYbFhvcFZPQm8xbTBWdmV3WGt6cklseWFQdkluRnNaSlhBemxHbFdqM1I4bXVZd0s5M09xVEMzWjdLN3p5eEVMZ3REMkFMZW1SZXhIM1J2YmVvcHBnNndtdldWa285YzJld0NJNkJnVkQtdE1mN0dCTWdfRUlfNnNrQUgzcnc?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-09",
+      "via_news": true,
+      "context": "KAU Assistant Professor (Agricultural Economics) Recruitment 2026: Walk-in for 2 Posts  (FreeJobAlert.Com)",
+      "id": "professor-news-c72818b64adc",
+      "source_id": "professor-news",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "category": "academia",
+      "apply_page": "https://www.ugc.gov.in/",
+      "checklist": "professor",
+      "score": 10,
+      "matched": [
+        "agricultural",
+        "assistant professor",
+        "professor",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "enriched": true
+    },
+    "sau-news-fa68abd4ad34": {
+      "title": "ANGRAU Research Associate & Young Professional Recruitment 2026 – Walk-in for 3 Posts",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ0hkeFBMaDVYVXlTU1ZZZFZnX2NlRlhXdXh4cnZCRDdTdm91ZWJiM05BZERLazZwcnNkeU8wd1ZjRnFwX3p6ckJxUFYwbFRVWDM4RFBsSEcwYURENmlkWjR2TjRFT2VMU2V4c1M1bVRVdXRSMk1Cei1wWENJT0NqSUQ4cUdjSEJXRjJFTWlHSGhYRDZaTUNyTXNYam9ZeFVtLXlrbkFqWTRxc2M?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-10-14",
+      "via_news": true,
+      "context": "ANGRAU Research Associate & Young Professional Recruitment 2026 – Walk-in for 3 Posts  (FreeJobAlert.Com)",
+      "id": "sau-news-fa68abd4ad34",
+      "source_id": "sau-news",
+      "org": "State Agricultural Universities (teaching & scientist posts)",
+      "category": "academia",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "professor",
+      "score": 7,
+      "matched": [
+        "research associate",
+        "young professional",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-16T07:15:23",
-    "new_count": 0,
-    "event_count": 0
+    "last_run": "2026-11-16T20:50:51",
+    "new_count": 3,
+    "event_count": 3
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-16T07:12:56"
+      "at": "2026-11-16T20:47:54"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-16T07:12:57"
+      "at": "2026-11-16T20:47:56"
     },
     "asrb": {
       "ok": true,
       "scanned": 12,
       "found": 1,
-      "at": "2026-11-16T07:13:00"
+      "at": "2026-11-16T20:47:58"
     },
     "iisr": {
       "ok": true,
       "scanned": 4,
       "found": 3,
-      "at": "2026-11-16T07:13:05"
+      "at": "2026-11-16T20:48:02"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 0,
-      "at": "2026-11-16T07:13:06"
+      "at": "2026-11-16T20:48:03"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-16T07:13:08"
+      "at": "2026-11-16T20:48:06"
     },
     "icar-soil-news": {
       "ok": true,
-      "scanned": 4,
-      "found": 1,
-      "at": "2026-11-16T07:13:09"
+      "scanned": 7,
+      "found": 0,
+      "at": "2026-11-16T20:48:06"
     },
     "icar-news": {
       "ok": true,
-      "scanned": 14,
+      "scanned": 13,
       "found": 1,
-      "at": "2026-11-16T07:13:09"
+      "at": "2026-11-16T20:48:06"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 42,
-      "found": 5,
-      "at": "2026-11-16T07:13:09"
+      "scanned": 52,
+      "found": 6,
+      "at": "2026-11-16T20:48:07"
     },
     "ibps": {
       "ok": true,
-      "scanned": 8,
-      "found": 3,
-      "at": "2026-11-16T07:13:12"
+      "scanned": 7,
+      "found": 2,
+      "at": "2026-11-16T20:48:09"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-16T07:14:58"
+      "at": "2026-11-16T20:49:53"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 10,
       "found": 0,
-      "at": "2026-11-16T07:14:58"
+      "at": "2026-11-16T20:49:55"
     },
     "bank-agri-news": {
       "ok": true,
-      "scanned": 8,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-16T07:14:59"
+      "at": "2026-11-16T20:49:55"
     },
     "iffco-news": {
       "ok": true,
       "scanned": 10,
       "found": 1,
-      "at": "2026-11-16T07:14:59"
+      "at": "2026-11-16T20:49:56"
     },
     "fert-psu-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-16T07:14:59"
+      "at": "2026-11-16T20:49:56"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 33,
       "found": 0,
-      "at": "2026-11-16T07:15:00"
+      "at": "2026-11-16T20:49:56"
     },
     "dairy-coop-news": {
       "ok": true,
-      "scanned": 4,
+      "scanned": 5,
       "found": 0,
-      "at": "2026-11-16T07:15:00"
+      "at": "2026-11-16T20:49:57"
     },
     "upsc-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 33,
       "found": 0,
-      "at": "2026-11-16T07:15:01"
+      "at": "2026-11-16T20:49:57"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-16T07:15:12"
+      "at": "2026-11-16T20:50:08"
     },
     "central-agri-news": {
       "ok": true,
-      "scanned": 32,
+      "scanned": 34,
       "found": 0,
-      "at": "2026-11-16T07:15:13"
+      "at": "2026-11-16T20:50:08"
     },
     "forest-soil-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-16T07:15:13"
+      "at": "2026-11-16T20:50:11"
     },
     "upsssc-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-16T07:15:13"
+      "at": "2026-11-16T20:50:13"
     },
     "up-agri-news": {
       "ok": true,
-      "scanned": 4,
+      "scanned": 2,
       "found": 0,
-      "at": "2026-11-16T07:15:14"
+      "at": "2026-11-16T20:50:15"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 22,
+      "scanned": 21,
       "found": 0,
-      "at": "2026-11-16T07:15:14"
+      "at": "2026-11-16T20:50:17"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 2,
       "found": 1,
-      "at": "2026-11-16T07:15:14"
+      "at": "2026-11-16T20:50:23"
     },
     "pau": {
       "ok": true,
       "scanned": 2,
       "found": 0,
-      "at": "2026-11-16T07:15:21"
+      "at": "2026-11-16T20:50:44"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 24,
+      "scanned": 25,
       "found": 6,
-      "at": "2026-11-16T07:15:22"
+      "at": "2026-11-16T20:50:45"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 30,
+      "scanned": 37,
       "found": 6,
-      "at": "2026-11-16T07:15:22"
+      "at": "2026-11-16T20:50:50"
     },
     "fellowship-news": {
       "ok": true,
       "scanned": 10,
       "found": 0,
-      "at": "2026-11-16T07:15:23"
+      "at": "2026-11-16T20:50:50"
     },
     "private-agri-news": {
       "ok": true,
       "scanned": 33,
       "found": 0,
-      "at": "2026-11-16T07:15:23"
+      "at": "2026-11-16T20:50:51"
     },
     "cgiar-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-16T07:15:23"
+      "at": "2026-11-16T20:50:51"
     }
   }
 }
