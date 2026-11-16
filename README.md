@@ -46,6 +46,23 @@ up Windows notifications for anything new or closing, then opens the dashboard.
 
 Or just double-click **`run_check.cmd`**, which does both.
 
+### Desktop shortcuts
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ".\install_desktop_shortcuts.ps1"
+```
+
+Puts three icons on your Desktop:
+
+| Shortcut | What it does |
+|---|---|
+| **Vacancy - Check Now** | Full check, desktop alerts, then opens the dashboard |
+| **Vacancy - Dashboard** | Opens the published dashboard in your browser |
+| **Vacancy - Alerts On-Off** | The switch for the twice-daily alerts — click to turn off, click again for on. It tells you the new state in a dialog. |
+
+Turning alerts off does not stop the cloud checks; the dashboard stays current either
+way. Delete any shortcut you do not want — nothing depends on them.
+
 ---
 
 ## The dashboard
