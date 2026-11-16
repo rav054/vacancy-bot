@@ -148,10 +148,33 @@ locally:
 python notify_local.py --from-url https://rav054.github.io/vacancy-bot
 ```
 
-To have that happen by itself, add a Windows scheduled task:
+To have that happen by itself, register the scheduled task:
 
 ```powershell
-schtasks /create /tn "Vacancy alerts" /tr "python \"F:\Apps\Vacancy bot\notify_local.py\" --from-url https://rav054.github.io/vacancy-bot" /sc daily /st 09:00
+powershell -ExecutionPolicy Bypass -File ".\install_alert_task.ps1"
+```
+
+It creates a task called **Vacancy alerts** that fires at **08:15 and 16:45** — fifteen
+minutes after each cloud run — for the current user only, which is what lets the toasts
+appear at all (a task running as SYSTEM has no desktop to show them on). No
+administrator rights needed.
+
+The important setting is `StartWhenAvailable`: if the PC was off or asleep at the
+scheduled time, the check runs as soon as it comes back, so a deadline is never silently
+missed. Output goes to `data/alerts.log`.
+
+Test it immediately, change the times, or remove it:
+
+```powershell
+Start-ScheduledTask -TaskName "Vacancy alerts"
+```
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ".\install_alert_task.ps1" -Times 07:30,19:00
+```
+
+```powershell
+Unregister-ScheduledTask -TaskName "Vacancy alerts" -Confirm:$false
 ```
 
 Already-announced alerts are remembered in `data/notified_local.json`, so you are never

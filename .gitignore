@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 _site/
 data/notified_local.json
+data/alerts.log
