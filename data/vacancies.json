@@ -184,7 +184,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-17",
       "enriched": true
     },
     "kvk-projects-news-8d1640bca4c7": {
@@ -901,7 +901,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-17",
       "enriched": true
     },
     "sau-news-fa68abd4ad34": {
@@ -970,196 +970,196 @@
     }
   },
   "meta": {
-    "last_run": "2026-11-17T11:04:19",
-    "new_count": 1,
-    "event_count": 2
+    "last_run": "2026-11-17T19:39:36",
+    "new_count": 0,
+    "event_count": 0
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-17T11:02:02"
+      "at": "2026-11-17T19:37:19"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-17T11:02:04"
+      "at": "2026-11-17T19:37:20"
     },
     "asrb": {
       "ok": true,
       "scanned": 12,
       "found": 1,
-      "at": "2026-11-17T11:02:07"
+      "at": "2026-11-17T19:37:22"
     },
     "iisr": {
       "ok": true,
       "scanned": 4,
       "found": 3,
-      "at": "2026-11-17T11:02:09"
+      "at": "2026-11-17T19:37:26"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 0,
-      "at": "2026-11-17T11:02:09"
+      "at": "2026-11-17T19:37:26"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-17T11:02:12"
+      "at": "2026-11-17T19:37:29"
     },
     "icar-soil-news": {
       "ok": true,
       "scanned": 7,
       "found": 1,
-      "at": "2026-11-17T11:02:12"
+      "at": "2026-11-17T19:37:29"
     },
     "icar-news": {
       "ok": true,
       "scanned": 13,
-      "found": 0,
-      "at": "2026-11-17T11:02:13"
+      "found": 1,
+      "at": "2026-11-17T19:37:29"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 54,
-      "found": 6,
-      "at": "2026-11-17T11:02:13"
+      "scanned": 53,
+      "found": 5,
+      "at": "2026-11-17T19:37:30"
     },
     "ibps": {
       "ok": true,
       "scanned": 7,
       "found": 2,
-      "at": "2026-11-17T11:02:17"
+      "at": "2026-11-17T19:37:32"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-17T11:04:01"
+      "at": "2026-11-17T19:39:17"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 11,
       "found": 0,
-      "at": "2026-11-17T11:04:01"
+      "at": "2026-11-17T19:39:18"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-17T11:04:02"
+      "at": "2026-11-17T19:39:18"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 11,
+      "scanned": 12,
       "found": 0,
-      "at": "2026-11-17T11:04:02"
+      "at": "2026-11-17T19:39:19"
     },
     "fert-psu-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-17T11:04:02"
+      "at": "2026-11-17T19:39:19"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 32,
+      "scanned": 33,
       "found": 0,
-      "at": "2026-11-17T11:04:03"
+      "at": "2026-11-17T19:39:20"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-17T11:04:03"
+      "at": "2026-11-17T19:39:20"
     },
     "upsc-news": {
       "ok": true,
       "scanned": 33,
       "found": 0,
-      "at": "2026-11-17T11:04:03"
+      "at": "2026-11-17T19:39:20"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-17T11:04:13"
+      "at": "2026-11-17T19:39:31"
     },
     "central-agri-news": {
       "ok": true,
-      "scanned": 35,
+      "scanned": 34,
       "found": 0,
-      "at": "2026-11-17T11:04:14"
+      "at": "2026-11-17T19:39:31"
     },
     "forest-soil-news": {
       "ok": true,
       "scanned": 33,
       "found": 0,
-      "at": "2026-11-17T11:04:14"
+      "at": "2026-11-17T19:39:31"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 33,
+      "scanned": 38,
       "found": 0,
-      "at": "2026-11-17T11:04:14"
+      "at": "2026-11-17T19:39:32"
     },
     "up-agri-news": {
       "ok": true,
       "scanned": 3,
       "found": 0,
-      "at": "2026-11-17T11:04:15"
+      "at": "2026-11-17T19:39:32"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 21,
+      "scanned": 22,
       "found": 0,
-      "at": "2026-11-17T11:04:15"
+      "at": "2026-11-17T19:39:33"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 2,
       "found": 1,
-      "at": "2026-11-17T11:04:15"
+      "at": "2026-11-17T19:39:33"
     },
     "pau": {
       "ok": true,
       "scanned": 2,
       "found": 0,
-      "at": "2026-11-17T11:04:17"
+      "at": "2026-11-17T19:39:34"
     },
     "professor-news": {
       "ok": true,
       "scanned": 25,
       "found": 6,
-      "at": "2026-11-17T11:04:17"
+      "at": "2026-11-17T19:39:34"
     },
     "sau-news": {
       "ok": true,
       "scanned": 38,
       "found": 6,
-      "at": "2026-11-17T11:04:18"
+      "at": "2026-11-17T19:39:35"
     },
     "fellowship-news": {
       "ok": true,
       "scanned": 10,
       "found": 0,
-      "at": "2026-11-17T11:04:18"
+      "at": "2026-11-17T19:39:35"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 33,
+      "scanned": 32,
       "found": 0,
-      "at": "2026-11-17T11:04:18"
+      "at": "2026-11-17T19:39:36"
     },
     "cgiar-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-17T11:04:19"
+      "at": "2026-11-17T19:39:36"
     }
   }
 }
