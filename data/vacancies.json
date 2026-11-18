@@ -966,199 +966,285 @@
       "first_seen": "2026-11-18",
       "last_seen": "2026-11-18",
       "enriched": true
+    },
+    "asrb-eeec21a4e78b": {
+      "title": "ONLINE APPLICATION FORM FOR CENTRALIZED COMBINED EXAMINATION-2026 FOR DIRECT RECRUITMENT TO THE POST OF TECHNICAL ASSISTANT (T-3) IN RESPECT OF ICAR INSTITUTES AND SENIOR TECHNICAL ASSISTANT (T-4) IN RESPECT OF KVKs OF I",
+      "url": "https://apps.cbexams.com/AsrbT3T4jkljReg2026/Default.aspx",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "context": "ONLINE APPLICATION FORM FOR CENTRALIZED COMBINED EXAMINATION-2026 FOR DIRECT RECRUITMENT TO THE POST OF TECHNICAL ASSISTANT (T-3) IN RESPECT OF ICAR INSTITUTES AND SENIOR TECHNICAL ASSISTANT (T-4) IN RESPECT OF KVKs OF I",
+      "id": "asrb-eeec21a4e78b",
+      "source_id": "asrb",
+      "org": "ASRB / ICAR (ARS, NET, STO, Technical Assistant, RMP)",
+      "category": "research",
+      "apply_page": "https://asrb.gov.in/",
+      "checklist": "icar",
+      "score": 4,
+      "matched": [
+        "technical assistant",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "enrich_failed": true
+    },
+    "iiss-bhopal-89c0e192c8fa": {
+      "title": "Walk in Interview for SRF & YP-II on 9 & 11 Dec 2026",
+      "url": "https://iiss.res.in/Recruitment/2026/181126B.pdf",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": "2026-12-11",
+      "context": "Walk in Interview for SRF & YP-II on 9 & 11 Dec 2026",
+      "id": "iiss-bhopal-89c0e192c8fa",
+      "source_id": "iiss-bhopal",
+      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
+      "category": "research",
+      "apply_page": "https://iiss.res.in/recruitment.php",
+      "checklist": "icar",
+      "score": 3,
+      "matched": [
+        "srf"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "iiss-bhopal-0a89852c85bb": {
+      "title": "Walk in Interview for JRF post on 27 Nov 2026",
+      "url": "https://iiss.res.in/Recruitment/2026/181126A.pdf",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": "2026-11-27",
+      "context": "Walk in Interview for JRF post on 27 Nov 2026",
+      "id": "iiss-bhopal-0a89852c85bb",
+      "source_id": "iiss-bhopal",
+      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
+      "category": "research",
+      "apply_page": "https://iiss.res.in/recruitment.php",
+      "checklist": "icar",
+      "score": 3,
+      "matched": [
+        "jrf"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [
+        14,
+        21
+      ],
+      "checked_items": [],
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
     }
   },
   "meta": {
-    "last_run": "2026-11-18T10:40:23",
-    "new_count": 1,
-    "event_count": 2
+    "last_run": "2026-11-18T19:16:46",
+    "new_count": 3,
+    "event_count": 4
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-18T10:37:25"
+      "at": "2026-11-18T19:14:17"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-18T10:37:26"
+      "at": "2026-11-18T19:14:18"
     },
     "asrb": {
       "ok": true,
-      "scanned": 12,
-      "found": 1,
-      "at": "2026-11-18T10:37:31"
+      "scanned": 13,
+      "found": 2,
+      "at": "2026-11-18T19:14:20"
     },
     "iisr": {
       "ok": true,
       "scanned": 5,
       "found": 2,
-      "at": "2026-11-18T10:37:35"
+      "at": "2026-11-18T19:14:24"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
-      "found": 0,
-      "at": "2026-11-18T10:37:36"
+      "found": 2,
+      "at": "2026-11-18T19:14:25"
     },
     "iari": {
-      "ok": false,
-      "error": "could not fetch https://www.iari.res.in/: HTTPSConnectionPool(host='www.iari.res.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.iari.res.in'",
-      "expected": false,
-      "at": "2026-11-18T10:38:15"
+      "ok": true,
+      "scanned": 0,
+      "found": 0,
+      "at": "2026-11-18T19:14:33"
     },
     "icar-soil-news": {
       "ok": true,
-      "scanned": 4,
+      "scanned": 6,
       "found": 0,
-      "at": "2026-11-18T10:38:15"
+      "at": "2026-11-18T19:14:34"
     },
     "icar-news": {
       "ok": true,
-      "scanned": 17,
+      "scanned": 18,
       "found": 1,
-      "at": "2026-11-18T10:38:15"
+      "at": "2026-11-18T19:14:34"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 51,
-      "found": 5,
-      "at": "2026-11-18T10:38:16"
+      "scanned": 58,
+      "found": 4,
+      "at": "2026-11-18T19:14:34"
     },
     "ibps": {
       "ok": true,
       "scanned": 7,
       "found": 2,
-      "at": "2026-11-18T10:38:20"
+      "at": "2026-11-18T19:14:38"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-18T10:40:06"
+      "at": "2026-11-18T19:16:24"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 11,
       "found": 0,
-      "at": "2026-11-18T10:40:06"
+      "at": "2026-11-18T19:16:25"
     },
     "bank-agri-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 8,
       "found": 0,
-      "at": "2026-11-18T10:40:06"
+      "at": "2026-11-18T19:16:25"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 16,
       "found": 0,
-      "at": "2026-11-18T10:40:06"
+      "at": "2026-11-18T19:16:25"
     },
     "fert-psu-news": {
       "ok": true,
       "scanned": 31,
       "found": 0,
-      "at": "2026-11-18T10:40:07"
+      "at": "2026-11-18T19:16:26"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 33,
       "found": 0,
-      "at": "2026-11-18T10:40:07"
+      "at": "2026-11-18T19:16:26"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-18T10:40:07"
+      "at": "2026-11-18T19:16:26"
     },
     "upsc-news": {
       "ok": true,
       "scanned": 33,
       "found": 0,
-      "at": "2026-11-18T10:40:08"
+      "at": "2026-11-18T19:16:27"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-18T10:40:18"
+      "at": "2026-11-18T19:16:38"
     },
     "central-agri-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 35,
       "found": 0,
-      "at": "2026-11-18T10:40:18"
+      "at": "2026-11-18T19:16:38"
     },
     "forest-soil-news": {
       "ok": true,
-      "scanned": 30,
+      "scanned": 31,
       "found": 0,
-      "at": "2026-11-18T10:40:19"
+      "at": "2026-11-18T19:16:38"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 37,
+      "scanned": 36,
       "found": 0,
-      "at": "2026-11-18T10:40:19"
+      "at": "2026-11-18T19:16:39"
     },
     "up-agri-news": {
       "ok": true,
-      "scanned": 5,
+      "scanned": 6,
       "found": 0,
-      "at": "2026-11-18T10:40:19"
+      "at": "2026-11-18T19:16:39"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 23,
+      "scanned": 25,
       "found": 0,
-      "at": "2026-11-18T10:40:19"
+      "at": "2026-11-18T19:16:39"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 2,
       "found": 1,
-      "at": "2026-11-18T10:40:19"
+      "at": "2026-11-18T19:16:40"
     },
     "pau": {
       "ok": true,
       "scanned": 2,
       "found": 0,
-      "at": "2026-11-18T10:40:21"
+      "at": "2026-11-18T19:16:42"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 21,
+      "scanned": 22,
       "found": 6,
-      "at": "2026-11-18T10:40:22"
+      "at": "2026-11-18T19:16:42"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 45,
+      "scanned": 37,
       "found": 6,
-      "at": "2026-11-18T10:40:22"
+      "at": "2026-11-18T19:16:42"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-18T10:40:22"
+      "at": "2026-11-18T19:16:43"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 32,
+      "scanned": 31,
       "found": 0,
-      "at": "2026-11-18T10:40:23"
+      "at": "2026-11-18T19:16:43"
     },
     "cgiar-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-18T10:40:23"
+      "at": "2026-11-18T19:16:44"
     }
   }
 }

@@ -1,28 +1,52 @@
 {
-  "generated": "2026-11-18T10:40:23",
+  "generated": "2026-11-18T19:16:46",
   "events": [
     {
       "kind": "deadline",
-      "id": "iisr-58b048c5b58d",
-      "org": "ICAR-IISR Kozhikode (also carries other ICAR notices)",
-      "title": "Vacancy Notification for the post of Young Professional-II (01 Post) at ICAR-NBSS&LUP, Nagpur – Walk-in Interview at ICAR-IISR, Kozhikode on 25.11.2026",
-      "url": "https://www.spices.res.in/storage/app/public/media/Notification_-_NICRA_-_NBSS.pdf",
-      "apply_page": "https://www.spices.res.in/",
-      "days_left": 7,
-      "last_date": "2026-11-25",
-      "threshold": 7,
+      "id": "iiss-bhopal-0a89852c85bb",
+      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
+      "title": "Walk in Interview for JRF post on 27 Nov 2026",
+      "url": "https://iiss.res.in/Recruitment/2026/181126A.pdf",
+      "apply_page": "https://iiss.res.in/recruitment.php",
+      "days_left": 9,
+      "last_date": "2026-11-27",
+      "threshold": 14,
       "urgency": "warning"
     },
     {
       "kind": "new",
-      "id": "sau-news-589812391f9d",
-      "org": "State Agricultural Universities (teaching & scientist posts)",
-      "title": "IIT (BHU) Project Research Scientist Recruitment 2026 – Apply Online",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3ZYTHVzTm1CRlhwYmhvWjJGU0RXRlVRX19kUHNheVlIWU1hNkRXWEFEVUxIRTh1OWpwRjAzb2N4eWZlRGFnU2M4RXdlUzVXUm1ZNUJIOE5zdWdGZm1zWk00TUxTa3hvZVA2UjdXMEFFblB0Sm1YU19QSy05VlRiVnZiMFlnVThFVnlyMUY4TlVCRDc4UUszeXQwZG9meEExM3hHOHNJTVdMY2hTbm5V?oc=5",
-      "apply_page": "https://icar.org.in/",
+      "id": "iiss-bhopal-0a89852c85bb",
+      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
+      "title": "Walk in Interview for JRF post on 27 Nov 2026",
+      "url": "https://iiss.res.in/Recruitment/2026/181126A.pdf",
+      "apply_page": "https://iiss.res.in/recruitment.php",
+      "days_left": 9,
+      "last_date": "2026-11-27",
+      "via_news": false,
+      "urgency": "new"
+    },
+    {
+      "kind": "new",
+      "id": "iiss-bhopal-89c0e192c8fa",
+      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
+      "title": "Walk in Interview for SRF & YP-II on 9 & 11 Dec 2026",
+      "url": "https://iiss.res.in/Recruitment/2026/181126B.pdf",
+      "apply_page": "https://iiss.res.in/recruitment.php",
+      "days_left": 23,
+      "last_date": "2026-12-11",
+      "via_news": false,
+      "urgency": "new"
+    },
+    {
+      "kind": "new",
+      "id": "asrb-eeec21a4e78b",
+      "org": "ASRB / ICAR (ARS, NET, STO, Technical Assistant, RMP)",
+      "title": "ONLINE APPLICATION FORM FOR CENTRALIZED COMBINED EXAMINATION-2026 FOR DIRECT RECRUITMENT TO THE POST OF TECHNICAL ASSISTANT (T-3) IN RESPECT OF ICAR INSTITUTES AND SENIOR TECHNICAL ASSISTANT (T-4) IN RESPECT OF KVKs OF I",
+      "url": "https://apps.cbexams.com/AsrbT3T4jkljReg2026/Default.aspx",
+      "apply_page": "https://asrb.gov.in/",
       "days_left": null,
       "last_date": null,
-      "via_news": true,
+      "via_news": false,
       "urgency": "new"
     }
   ]
