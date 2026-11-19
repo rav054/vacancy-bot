@@ -1087,199 +1087,230 @@
       "first_seen": "2026-11-19",
       "last_seen": "2026-11-19",
       "enriched": true
+    },
+    "icar-soil-news-f731a12137ec": {
+      "title": "PAU Junior Field/Lab Helper (Soil Science) Recruitment 2026 – Apply Offline",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMkhKajhtOFNtb3dMQ2JKZFc1NXNUYnVHekZNMU81b0psSm1GcHRwa3h6amc2dTFEbVRPczBLN1p6cWY5dndKd0dJTnBTS09zZTZRbUVMS1djX19ldzgzRDRwa2RsQmNKaHRvR05rc0w2NEwzdkZIbGY2dV9GWF9ETGdWOU00SVpzRDFlRENTamZjdVVBQVQyenJBVU9YUEtUTktIUHZ3?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-07",
+      "via_news": true,
+      "context": "PAU Junior Field/Lab Helper (Soil Science) Recruitment 2026 – Apply Offline  (FreeJobAlert.Com)",
+      "id": "icar-soil-news-f731a12137ec",
+      "source_id": "icar-soil-news",
+      "org": "ICAR soil & land-resource institutes",
+      "category": "research",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "icar",
+      "score": 5,
+      "matched": [
+        "soil science",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-19T10:44:21",
+    "last_run": "2026-11-19T19:23:08",
     "new_count": 1,
-    "event_count": 2
+    "event_count": 1
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-19T10:42:08"
+      "at": "2026-11-19T19:20:54"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-19T10:42:09"
+      "at": "2026-11-19T19:20:55"
     },
     "asrb": {
       "ok": true,
       "scanned": 13,
       "found": 2,
-      "at": "2026-11-19T10:42:10"
+      "at": "2026-11-19T19:20:56"
     },
     "iisr": {
       "ok": true,
       "scanned": 5,
       "found": 2,
-      "at": "2026-11-19T10:42:13"
+      "at": "2026-11-19T19:20:58"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-19T10:42:13"
+      "at": "2026-11-19T19:20:59"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-19T10:42:16"
+      "at": "2026-11-19T19:21:02"
     },
     "icar-soil-news": {
       "ok": true,
-      "scanned": 6,
-      "found": 0,
-      "at": "2026-11-19T10:42:16"
+      "scanned": 8,
+      "found": 1,
+      "at": "2026-11-19T19:21:02"
     },
     "icar-news": {
       "ok": true,
       "scanned": 20,
-      "found": 2,
-      "at": "2026-11-19T10:42:16"
+      "found": 1,
+      "at": "2026-11-19T19:21:03"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 59,
+      "scanned": 56,
       "found": 5,
-      "at": "2026-11-19T10:42:17"
+      "at": "2026-11-19T19:21:03"
     },
     "ibps": {
       "ok": true,
       "scanned": 8,
       "found": 2,
-      "at": "2026-11-19T10:42:19"
+      "at": "2026-11-19T19:21:05"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-19T10:44:02"
+      "at": "2026-11-19T19:22:47"
     },
     "nabard-news": {
       "ok": true,
       "scanned": 11,
       "found": 0,
-      "at": "2026-11-19T10:44:03"
+      "at": "2026-11-19T19:22:48"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 8,
       "found": 0,
-      "at": "2026-11-19T10:44:03"
+      "at": "2026-11-19T19:22:48"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 19,
+      "scanned": 14,
       "found": 0,
-      "at": "2026-11-19T10:44:03"
+      "at": "2026-11-19T19:22:48"
     },
     "fert-psu-news": {
       "ok": true,
       "scanned": 31,
       "found": 0,
-      "at": "2026-11-19T10:44:04"
+      "at": "2026-11-19T19:22:49"
     },
     "fci-cwc-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-19T10:44:04"
+      "at": "2026-11-19T19:22:49"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-19T10:44:04"
+      "at": "2026-11-19T19:22:49"
     },
     "upsc-news": {
       "ok": true,
       "scanned": 33,
       "found": 0,
-      "at": "2026-11-19T10:44:05"
+      "at": "2026-11-19T19:22:50"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-19T10:44:15"
+      "at": "2026-11-19T19:23:00"
     },
     "central-agri-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 33,
       "found": 0,
-      "at": "2026-11-19T10:44:15"
+      "at": "2026-11-19T19:23:01"
     },
     "forest-soil-news": {
       "ok": true,
       "scanned": 34,
       "found": 0,
-      "at": "2026-11-19T10:44:16"
+      "at": "2026-11-19T19:23:01"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 38,
+      "scanned": 36,
       "found": 0,
-      "at": "2026-11-19T10:44:16"
+      "at": "2026-11-19T19:23:02"
     },
     "up-agri-news": {
       "ok": true,
       "scanned": 4,
       "found": 0,
-      "at": "2026-11-19T10:44:16"
+      "at": "2026-11-19T19:23:02"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 29,
+      "scanned": 31,
       "found": 0,
-      "at": "2026-11-19T10:44:16"
+      "at": "2026-11-19T19:23:02"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 2,
       "found": 1,
-      "at": "2026-11-19T10:44:17"
+      "at": "2026-11-19T19:23:02"
     },
     "pau": {
       "ok": true,
       "scanned": 3,
       "found": 0,
-      "at": "2026-11-19T10:44:18"
+      "at": "2026-11-19T19:23:04"
     },
     "professor-news": {
       "ok": true,
       "scanned": 21,
       "found": 6,
-      "at": "2026-11-19T10:44:18"
+      "at": "2026-11-19T19:23:04"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 32,
+      "scanned": 33,
       "found": 6,
-      "at": "2026-11-19T10:44:18"
+      "at": "2026-11-19T19:23:05"
     },
     "fellowship-news": {
       "ok": true,
       "scanned": 10,
       "found": 0,
-      "at": "2026-11-19T10:44:19"
+      "at": "2026-11-19T19:23:05"
     },
     "private-agri-news": {
       "ok": true,
       "scanned": 30,
       "found": 0,
-      "at": "2026-11-19T10:44:19"
+      "at": "2026-11-19T19:23:06"
     },
     "cgiar-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 10,
       "found": 0,
-      "at": "2026-11-19T10:44:20"
+      "at": "2026-11-19T19:23:06"
     }
   }
 }
