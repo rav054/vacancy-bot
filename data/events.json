@@ -1,52 +1,28 @@
 {
-  "generated": "2026-11-18T19:16:46",
+  "generated": "2026-11-19T10:44:21",
   "events": [
     {
       "kind": "deadline",
-      "id": "iiss-bhopal-0a89852c85bb",
-      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
-      "title": "Walk in Interview for JRF post on 27 Nov 2026",
-      "url": "https://iiss.res.in/Recruitment/2026/181126A.pdf",
-      "apply_page": "https://iiss.res.in/recruitment.php",
-      "days_left": 9,
-      "last_date": "2026-11-27",
-      "threshold": 14,
+      "id": "iisr-75f40b70c336",
+      "org": "ICAR-IISR Kozhikode (also carries other ICAR notices)",
+      "title": "Vacancy Notification for the post of Young Professional II (01 Post) at ICAR-IISR, Kozhikode on 26-11-2026",
+      "url": "https://www.spices.res.in/storage/app/public/media/Notification_-_NICRA_-_IISR.pdf",
+      "apply_page": "https://www.spices.res.in/",
+      "days_left": 7,
+      "last_date": "2026-11-26",
+      "threshold": 7,
       "urgency": "warning"
     },
     {
       "kind": "new",
-      "id": "iiss-bhopal-0a89852c85bb",
-      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
-      "title": "Walk in Interview for JRF post on 27 Nov 2026",
-      "url": "https://iiss.res.in/Recruitment/2026/181126A.pdf",
-      "apply_page": "https://iiss.res.in/recruitment.php",
-      "days_left": 9,
-      "last_date": "2026-11-27",
-      "via_news": false,
-      "urgency": "new"
-    },
-    {
-      "kind": "new",
-      "id": "iiss-bhopal-89c0e192c8fa",
-      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
-      "title": "Walk in Interview for SRF & YP-II on 9 & 11 Dec 2026",
-      "url": "https://iiss.res.in/Recruitment/2026/181126B.pdf",
-      "apply_page": "https://iiss.res.in/recruitment.php",
-      "days_left": 23,
-      "last_date": "2026-12-11",
-      "via_news": false,
-      "urgency": "new"
-    },
-    {
-      "kind": "new",
-      "id": "asrb-eeec21a4e78b",
-      "org": "ASRB / ICAR (ARS, NET, STO, Technical Assistant, RMP)",
-      "title": "ONLINE APPLICATION FORM FOR CENTRALIZED COMBINED EXAMINATION-2026 FOR DIRECT RECRUITMENT TO THE POST OF TECHNICAL ASSISTANT (T-3) IN RESPECT OF ICAR INSTITUTES AND SENIOR TECHNICAL ASSISTANT (T-4) IN RESPECT OF KVKs OF I",
-      "url": "https://apps.cbexams.com/AsrbT3T4jkljReg2026/Default.aspx",
-      "apply_page": "https://asrb.gov.in/",
+      "id": "icar-news-b909a3366ff9",
+      "org": "ICAR institutes & Agricultural Universities",
+      "title": "HPPSC ADO Recruitment 2026 - Apply Online for 23 Agriculture Development Officer Posts",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUjJWaGxZZ3h5OFE4OVZxYnVnOXRHV3BrVm5PMlIwMGtXbTFhbDB0MVUwd0tETmpDT1dPR0hzYnE4Sl84eXR3NkxmVXNldEJndlJhdEhMUmpLbjRBdGJ3ZXpiUF9rRURrY0ZXeTFkYkFHTlM2OVdGbzVuRk0wU2tlX2dhbkI4RW5ycVZ2Q2s2Q3RPZGtuU2kxdkloU29SMEJrbVh4V1UtSDhZMXF3aHNGSlNPVHN5NVNDMW5SdWoxcVlkdzVoTnFKRnBR?oc=5",
+      "apply_page": "https://icar.org.in/",
       "days_left": null,
       "last_date": null,
-      "via_news": false,
+      "via_news": true,
       "urgency": "new"
     }
   ]
