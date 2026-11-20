@@ -1,29 +1,53 @@
 {
-  "generated": "2026-11-20T10:24:39",
+  "generated": "2026-11-20T19:00:09",
   "events": [
     {
-      "kind": "deadline",
-      "id": "iiss-bhopal-0a89852c85bb",
-      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
-      "title": "Walk in Interview for JRF post on 27 Nov 2026",
-      "url": "https://iiss.res.in/Recruitment/2026/181126A.pdf",
-      "apply_page": "https://iiss.res.in/recruitment.php",
-      "days_left": 7,
-      "last_date": "2026-11-27",
-      "threshold": 7,
-      "urgency": "warning"
+      "kind": "new",
+      "id": "forest-soil-news-a3010a3f00d4",
+      "org": "Forest service, ICFRE & soil conservation departments",
+      "title": "TN Forest Technical Assistant Recruitment 2026 – Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQXzFmVzRiWVpRU3JCOEZ2TTNNWmVpSWY4UkthTUR0X04zY2l6VzNYa2lMU0cteWRBbDkyN2dfXzNub04xZ0pkUldKVXRvbFdQemNXaWUtdmZBN1lnejh5SXYxcnFSSXEwWlYtRnltTU5BZm03ajc4dlFlcUp1U3QxR1V1UmNLSkdJYmRCRVlKWjJDdnI0bzUw?oc=5",
+      "apply_page": "https://icfre.gov.in/",
+      "days_left": null,
+      "last_date": null,
+      "via_news": true,
+      "urgency": "new"
     },
     {
-      "kind": "deadline",
-      "id": "iiss-bhopal-89c0e192c8fa",
-      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
-      "title": "Walk in Interview for SRF & YP-II on 9 & 11 Dec 2026",
-      "url": "https://iiss.res.in/Recruitment/2026/181126B.pdf",
-      "apply_page": "https://iiss.res.in/recruitment.php",
-      "days_left": 21,
-      "last_date": "2026-12-11",
-      "threshold": 21,
-      "urgency": "warning"
+      "kind": "new",
+      "id": "professor-news-55f7ccc30e84",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "title": "UAS Dharwad Assistant Professor of Agronomy Recruitment 2026 – Walkin",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR3ZlQmlkSzltRkVVNHRFZUx3a3FSS3MzMWFqMVBvTDY2SVFtcXFKRTZibVBPeWhYRU84dVc0cGFnREcyc3hnMkVQRTN6WmhfRnc4RFF1YTJ1NkZPbHVtTmJtVXJYWU1fU2FWWlBoV1BkUHFOcktTay1mNW1NdE9aUjRDWkF4X2hCQ0s5MWs3Skk1TVRyOXJnMTR5RDBCR2I0dzVTZnotam94dw?oc=5",
+      "apply_page": "https://www.ugc.gov.in/",
+      "days_left": null,
+      "last_date": null,
+      "via_news": true,
+      "urgency": "new"
+    },
+    {
+      "kind": "new",
+      "id": "professor-news-a6e9d37b4823",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "title": "NIT Rourkela Professor Recruitment 2026 – Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdndyTmJfb05Ob1RTN3M1dUxvUUJ3VmQ5YUp0T1ludWRXX0tNeEM1b01jM1RXbTB6b0tJTjFKT2pnZjRWTlljS3FRRzVlSTUtZGNLWFRJMElfODY5SjNRcWVqVXZ0WjF5cXlMdlF0TXBBRVRyQW04cXFtdzdCR1ZxcjBoNXdfUzJHQ0pxTEJn?oc=5",
+      "apply_page": "https://www.ugc.gov.in/",
+      "days_left": null,
+      "last_date": null,
+      "via_news": true,
+      "urgency": "new"
+    },
+    {
+      "kind": "new",
+      "id": "professor-news-ceb94bb38113",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "title": "DSAC Recruitment 2026 – Apply Offline for Assistant Professor (Crop Physiology / Biochemistry / Biotechnology) Posts",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNazYxOTZIUFFGQXplMkU0VWtNZVRUSFJtTlJLU0xRYjlndU1WYWtaUUN5M0dsdGVZUmtnTWdGSG1aV2JCaDlfY2JkVTFOcDNWRUIxOE9uQUw5WGxpR1RlQ3M4c0IwNUdkVGtadG1zQ0tMVFBudEc1WmJBT2xXMXZxbWdQNGpYTDdPNVJPc3FwRkV2cWRSMXBYNnllR0lxWWlKa3QxWVpOM3RXUDQxQ2s4c21mcnNXNkU?oc=5",
+      "apply_page": "https://www.ugc.gov.in/",
+      "days_left": null,
+      "last_date": null,
+      "via_news": true,
+      "urgency": "new"
     }
   ]
 }

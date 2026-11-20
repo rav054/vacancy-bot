@@ -1121,199 +1121,326 @@
       "first_seen": "2026-11-19",
       "last_seen": "2026-11-19",
       "enriched": true
+    },
+    "forest-soil-news-a3010a3f00d4": {
+      "title": "TN Forest Technical Assistant Recruitment 2026 – Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQXzFmVzRiWVpRU3JCOEZ2TTNNWmVpSWY4UkthTUR0X04zY2l6VzNYa2lMU0cteWRBbDkyN2dfXzNub04xZ0pkUldKVXRvbFdQemNXaWUtdmZBN1lnejh5SXYxcnFSSXEwWlYtRnltTU5BZm03ajc4dlFlcUp1U3QxR1V1UmNLSkdJYmRCRVlKWjJDdnI0bzUw?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-20",
+      "via_news": true,
+      "context": "TN Forest Technical Assistant Recruitment 2026 – Apply Online  (FreeJobAlert.Com)",
+      "id": "forest-soil-news-a3010a3f00d4",
+      "source_id": "forest-soil-news",
+      "org": "Forest service, ICFRE & soil conservation departments",
+      "category": "central",
+      "apply_page": "https://icfre.gov.in/",
+      "checklist": "central",
+      "score": 4,
+      "matched": [
+        "technical assistant",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "enriched": true
+    },
+    "professor-news-55f7ccc30e84": {
+      "title": "UAS Dharwad Assistant Professor of Agronomy Recruitment 2026 – Walkin",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR3ZlQmlkSzltRkVVNHRFZUx3a3FSS3MzMWFqMVBvTDY2SVFtcXFKRTZibVBPeWhYRU84dVc0cGFnREcyc3hnMkVQRTN6WmhfRnc4RFF1YTJ1NkZPbHVtTmJtVXJYWU1fU2FWWlBoV1BkUHFOcktTay1mNW1NdE9aUjRDWkF4X2hCQ0s5MWs3Skk1TVRyOXJnMTR5RDBCR2I0dzVTZnotam94dw?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-20",
+      "via_news": true,
+      "context": "UAS Dharwad Assistant Professor of Agronomy Recruitment 2026 – Walkin  (FreeJobAlert.Com)",
+      "id": "professor-news-55f7ccc30e84",
+      "source_id": "professor-news",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "category": "academia",
+      "apply_page": "https://www.ugc.gov.in/",
+      "checklist": "professor",
+      "score": 11,
+      "matched": [
+        "agronomy",
+        "assistant professor",
+        "professor",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "enriched": true
+    },
+    "professor-news-a6e9d37b4823": {
+      "title": "NIT Rourkela Professor Recruitment 2026 – Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdndyTmJfb05Ob1RTN3M1dUxvUUJ3VmQ5YUp0T1ludWRXX0tNeEM1b01jM1RXbTB6b0tJTjFKT2pnZjRWTlljS3FRRzVlSTUtZGNLWFRJMElfODY5SjNRcWVqVXZ0WjF5cXlMdlF0TXBBRVRyQW04cXFtdzdCR1ZxcjBoNXdfUzJHQ0pxTEJn?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-17",
+      "via_news": true,
+      "context": "NIT Rourkela Professor Recruitment 2026 – Apply Online  (FreeJobAlert.Com)",
+      "id": "professor-news-a6e9d37b4823",
+      "source_id": "professor-news",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "category": "academia",
+      "apply_page": "https://www.ugc.gov.in/",
+      "checklist": "professor",
+      "score": 4,
+      "matched": [
+        "professor",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "enriched": true
+    },
+    "professor-news-ceb94bb38113": {
+      "title": "DSAC Recruitment 2026 – Apply Offline for Assistant Professor (Crop Physiology / Biochemistry / Biotechnology) Posts",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNazYxOTZIUFFGQXplMkU0VWtNZVRUSFJtTlJLU0xRYjlndU1WYWtaUUN5M0dsdGVZUmtnTWdGSG1aV2JCaDlfY2JkVTFOcDNWRUIxOE9uQUw5WGxpR1RlQ3M4c0IwNUdkVGtadG1zQ0tMVFBudEc1WmJBT2xXMXZxbWdQNGpYTDdPNVJPc3FwRkV2cWRSMXBYNnllR0lxWWlKa3QxWVpOM3RXUDQxQ2s4c21mcnNXNkU?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-13",
+      "via_news": true,
+      "context": "DSAC Recruitment 2026 – Apply Offline for Assistant Professor (Crop Physiology / Biochemistry / Biotechnology) Posts  (FreeJobAlert.Com)",
+      "id": "professor-news-ceb94bb38113",
+      "source_id": "professor-news",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "category": "academia",
+      "apply_page": "https://www.ugc.gov.in/",
+      "checklist": "professor",
+      "score": 7,
+      "matched": [
+        "assistant professor",
+        "professor",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-20T10:24:39",
-    "new_count": 0,
-    "event_count": 2
+    "last_run": "2026-11-20T19:00:09",
+    "new_count": 4,
+    "event_count": 4
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-20T10:22:28"
+      "at": "2026-11-20T18:57:48"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-20T10:22:29"
+      "at": "2026-11-20T18:57:50"
     },
     "asrb": {
       "ok": true,
       "scanned": 13,
       "found": 2,
-      "at": "2026-11-20T10:22:31"
+      "at": "2026-11-20T18:57:52"
     },
     "iisr": {
       "ok": true,
-      "scanned": 5,
+      "scanned": 6,
       "found": 2,
-      "at": "2026-11-20T10:22:33"
+      "at": "2026-11-20T18:57:54"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-20T10:22:33"
+      "at": "2026-11-20T18:57:54"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-20T10:22:36"
+      "at": "2026-11-20T18:58:00"
     },
     "icar-soil-news": {
       "ok": true,
-      "scanned": 5,
+      "scanned": 7,
       "found": 0,
-      "at": "2026-11-20T10:22:36"
+      "at": "2026-11-20T18:58:01"
     },
     "icar-news": {
       "ok": true,
-      "scanned": 19,
+      "scanned": 57,
       "found": 1,
-      "at": "2026-11-20T10:22:36"
+      "at": "2026-11-20T18:58:01"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 56,
+      "scanned": 55,
       "found": 4,
-      "at": "2026-11-20T10:22:36"
+      "at": "2026-11-20T18:58:02"
     },
     "ibps": {
       "ok": true,
-      "scanned": 8,
-      "found": 2,
-      "at": "2026-11-20T10:22:39"
+      "scanned": 7,
+      "found": 1,
+      "at": "2026-11-20T18:58:04"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-20T10:24:20"
+      "at": "2026-11-20T18:59:48"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 11,
+      "scanned": 17,
       "found": 0,
-      "at": "2026-11-20T10:24:20"
+      "at": "2026-11-20T18:59:48"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 7,
       "found": 0,
-      "at": "2026-11-20T10:24:21"
+      "at": "2026-11-20T18:59:49"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 42,
       "found": 0,
-      "at": "2026-11-20T10:24:21"
+      "at": "2026-11-20T18:59:49"
     },
     "fert-psu-news": {
       "ok": true,
       "scanned": 31,
       "found": 0,
-      "at": "2026-11-20T10:24:21"
+      "at": "2026-11-20T18:59:50"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 31,
+      "scanned": 33,
       "found": 0,
-      "at": "2026-11-20T10:24:22"
+      "at": "2026-11-20T18:59:50"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-20T10:24:22"
+      "at": "2026-11-20T18:59:50"
     },
     "upsc-news": {
       "ok": true,
       "scanned": 33,
       "found": 0,
-      "at": "2026-11-20T10:24:22"
+      "at": "2026-11-20T18:59:51"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-20T10:24:33"
+      "at": "2026-11-20T19:00:01"
     },
     "central-agri-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-20T10:24:33"
+      "at": "2026-11-20T19:00:02"
     },
     "forest-soil-news": {
       "ok": true,
-      "scanned": 33,
-      "found": 0,
-      "at": "2026-11-20T10:24:33"
+      "scanned": 34,
+      "found": 1,
+      "at": "2026-11-20T19:00:02"
     },
     "upsssc-news": {
       "ok": true,
       "scanned": 38,
       "found": 0,
-      "at": "2026-11-20T10:24:34"
+      "at": "2026-11-20T19:00:02"
     },
     "up-agri-news": {
       "ok": true,
-      "scanned": 6,
+      "scanned": 5,
       "found": 0,
-      "at": "2026-11-20T10:24:34"
+      "at": "2026-11-20T19:00:03"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 38,
+      "scanned": 39,
       "found": 0,
-      "at": "2026-11-20T10:24:34"
+      "at": "2026-11-20T19:00:03"
     },
     "state-agri-dept-news": {
       "ok": true,
-      "scanned": 2,
-      "found": 1,
-      "at": "2026-11-20T10:24:34"
+      "scanned": 1,
+      "found": 0,
+      "at": "2026-11-20T19:00:03"
     },
     "pau": {
       "ok": true,
       "scanned": 2,
       "found": 0,
-      "at": "2026-11-20T10:24:36"
+      "at": "2026-11-20T19:00:05"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 19,
+      "scanned": 24,
       "found": 6,
-      "at": "2026-11-20T10:24:36"
+      "at": "2026-11-20T19:00:06"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 32,
-      "found": 6,
-      "at": "2026-11-20T10:24:37"
+      "scanned": 34,
+      "found": 5,
+      "at": "2026-11-20T19:00:06"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-20T10:24:37"
+      "at": "2026-11-20T19:00:06"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 29,
+      "scanned": 28,
       "found": 0,
-      "at": "2026-11-20T10:24:37"
+      "at": "2026-11-20T19:00:07"
     },
     "cgiar-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 11,
       "found": 0,
-      "at": "2026-11-20T10:24:38"
+      "at": "2026-11-20T19:00:07"
     }
   }
 }
