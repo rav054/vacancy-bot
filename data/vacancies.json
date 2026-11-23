@@ -402,7 +402,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20"
+      "last_seen": "2026-11-23"
     },
     "ibps-2cd0e5556f04": {
       "title": "Window Notification for CRP-PO/MTs -XVI and SPL-XVI",
@@ -430,7 +430,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16"
+      "last_seen": "2026-11-23"
     },
     "rac-drdo-e9c38e69aee9": {
       "title": "Requirement of Valid GATE Score for Direct Recruitment of Scientist 'B' (Group A Gazetted) post in Defence Research & Development Service (DRDS) cadre of DRDO",
@@ -1121,7 +1121,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-21",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-55f7ccc30e84": {
@@ -1387,7 +1387,7 @@
       "location": "",
       "opening_date": null,
       "last_date": null,
-      "published": "2026-11-21",
+      "published": "2026-11-23",
       "via_news": true,
       "context": "OUAT Professor Recruitment 2026 Notification Out, Apply Offline  (Adda247)",
       "id": "sau-news-deceee853219",
@@ -1535,199 +1535,263 @@
       "first_seen": "2026-11-22",
       "last_seen": "2026-11-22",
       "enriched": true
+    },
+    "professor-news-44e5f511c59b": {
+      "title": "OUAT Bhubaneswar Assistant & Associate Professor Recruitment 2026 – 23 Posts, Apply by 25 Nov",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNMFVlYkhEdktTQXZoQlFHS3VfaFlveUJGNDhyVWU4QTRJT2g5R2JYYmM0anlyY2VyNWNKMGs0UVBoR05KRzVmaDhiU0VwNWVGaXpacHpVVmgzSWlIVzlzNk45MTBQNmp3V0NnRVZRZEIxOUZLeXZETUwzNA?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-15",
+      "via_news": true,
+      "context": "OUAT Bhubaneswar Assistant & Associate Professor Recruitment 2026 – 23 Posts, Apply by 25 Nov  (www.rojgarpulse.in)",
+      "id": "professor-news-44e5f511c59b",
+      "source_id": "professor-news",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "category": "academia",
+      "apply_page": "https://www.ugc.gov.in/",
+      "checklist": "professor",
+      "score": 7,
+      "matched": [
+        "associate professor",
+        "professor",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "enriched": true
+    },
+    "professor-news-c5ef0ac294c8": {
+      "title": "KKHSOU Assistant Professor (Contractual) Recruitment 2026 – 53 Posts (Advt CT 01/2026) Apply by 27 Nov",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNW0zaDRKOF9YS1lKckRwcE45SlRCZTBFWlFFc2NtNUxET0JXR0N0Y0k3QmhNM3JvaGI0akVBcGw5Q1ZYRTJPYXhMZVljWTV2QXhuZDBDeDBLRDI3Rjk4Tm8xelBMMHRfeEtnaXJHSWctM2k0VHdlRzBTRC1ucF80N0Y3RlpEd1JH?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-16",
+      "via_news": true,
+      "context": "KKHSOU Assistant Professor (Contractual) Recruitment 2026 – 53 Posts (Advt CT 01/2026) | Apply by 27 Nov  (rojgarpulse.in)",
+      "id": "professor-news-c5ef0ac294c8",
+      "source_id": "professor-news",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "category": "academia",
+      "apply_page": "https://www.ugc.gov.in/",
+      "checklist": "professor",
+      "score": 7,
+      "matched": [
+        "assistant professor",
+        "professor",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-23T11:09:34",
-    "new_count": 0,
-    "event_count": 1
+    "last_run": "2026-11-23T22:29:21",
+    "new_count": 2,
+    "event_count": 2
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-23T11:07:15"
+      "at": "2026-11-23T22:26:56"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-23T11:07:18"
+      "at": "2026-11-23T22:26:57"
     },
     "asrb": {
       "ok": true,
       "scanned": 13,
       "found": 2,
-      "at": "2026-11-23T11:07:19"
+      "at": "2026-11-23T22:26:59"
     },
     "iisr": {
       "ok": true,
       "scanned": 5,
       "found": 2,
-      "at": "2026-11-23T11:07:22"
+      "at": "2026-11-23T22:27:03"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-23T11:07:22"
+      "at": "2026-11-23T22:27:04"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-23T11:07:25"
+      "at": "2026-11-23T22:27:12"
     },
     "icar-soil-news": {
       "ok": true,
-      "scanned": 7,
+      "scanned": 8,
       "found": 1,
-      "at": "2026-11-23T11:07:25"
+      "at": "2026-11-23T22:27:13"
     },
     "icar-news": {
       "ok": true,
-      "scanned": 19,
+      "scanned": 51,
       "found": 3,
-      "at": "2026-11-23T11:07:25"
+      "at": "2026-11-23T22:27:13"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 52,
+      "scanned": 54,
       "found": 4,
-      "at": "2026-11-23T11:07:26"
+      "at": "2026-11-23T22:27:14"
     },
     "ibps": {
       "ok": true,
-      "scanned": 7,
-      "found": 1,
-      "at": "2026-11-23T11:07:30"
+      "scanned": 9,
+      "found": 3,
+      "at": "2026-11-23T22:27:16"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-23T11:09:13"
+      "at": "2026-11-23T22:29:00"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 43,
+      "scanned": 41,
       "found": 0,
-      "at": "2026-11-23T11:09:13"
+      "at": "2026-11-23T22:29:00"
     },
     "bank-agri-news": {
       "ok": true,
-      "scanned": 8,
+      "scanned": 7,
       "found": 0,
-      "at": "2026-11-23T11:09:14"
+      "at": "2026-11-23T22:29:01"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 36,
       "found": 0,
-      "at": "2026-11-23T11:09:14"
+      "at": "2026-11-23T22:29:01"
     },
     "fert-psu-news": {
       "ok": true,
-      "scanned": 30,
+      "scanned": 73,
       "found": 0,
-      "at": "2026-11-23T11:09:14"
+      "at": "2026-11-23T22:29:02"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 37,
       "found": 0,
-      "at": "2026-11-23T11:09:15"
+      "at": "2026-11-23T22:29:02"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-23T11:09:15"
+      "at": "2026-11-23T22:29:02"
     },
     "upsc-news": {
       "ok": true,
-      "scanned": 22,
+      "scanned": 55,
       "found": 0,
-      "at": "2026-11-23T11:09:15"
+      "at": "2026-11-23T22:29:03"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-23T11:09:26"
+      "at": "2026-11-23T22:29:14"
     },
     "central-agri-news": {
       "ok": true,
       "scanned": 34,
       "found": 0,
-      "at": "2026-11-23T11:09:26"
+      "at": "2026-11-23T22:29:14"
     },
     "forest-soil-news": {
       "ok": true,
-      "scanned": 27,
-      "found": 0,
-      "at": "2026-11-23T11:09:27"
+      "scanned": 66,
+      "found": 1,
+      "at": "2026-11-23T22:29:15"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 72,
+      "scanned": 43,
       "found": 0,
-      "at": "2026-11-23T11:09:27"
+      "at": "2026-11-23T22:29:15"
     },
     "up-agri-news": {
       "ok": true,
-      "scanned": 6,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-23T11:09:27"
+      "at": "2026-11-23T22:29:15"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 39,
+      "scanned": 59,
       "found": 0,
-      "at": "2026-11-23T11:09:28"
+      "at": "2026-11-23T22:29:16"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 1,
       "found": 0,
-      "at": "2026-11-23T11:09:29"
+      "at": "2026-11-23T22:29:16"
     },
     "pau": {
       "ok": true,
       "scanned": 3,
       "found": 0,
-      "at": "2026-11-23T11:09:30"
+      "at": "2026-11-23T22:29:18"
     },
     "professor-news": {
       "ok": true,
       "scanned": 22,
       "found": 6,
-      "at": "2026-11-23T11:09:31"
+      "at": "2026-11-23T22:29:18"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 56,
+      "scanned": 28,
       "found": 6,
-      "at": "2026-11-23T11:09:31"
+      "at": "2026-11-23T22:29:18"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-23T11:09:31"
+      "at": "2026-11-23T22:29:19"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 30,
+      "scanned": 31,
       "found": 0,
-      "at": "2026-11-23T11:09:32"
+      "at": "2026-11-23T22:29:19"
     },
     "cgiar-news": {
       "ok": true,
-      "scanned": 8,
+      "scanned": 10,
       "found": 0,
-      "at": "2026-11-23T11:09:32"
+      "at": "2026-11-23T22:29:20"
     }
   }
 }
