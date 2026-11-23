@@ -26,7 +26,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22"
+      "last_seen": "2026-11-23"
     },
     "iisr-75f40b70c336": {
       "title": "Vacancy Notification for the post of Young Professional II (01 Post) at ICAR-IISR, Kozhikode on 26-11-2026",
@@ -54,11 +54,12 @@
       "notified": [
         14,
         21,
-        7
+        7,
+        3
       ],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22"
+      "last_seen": "2026-11-23"
     },
     "iisr-58b048c5b58d": {
       "title": "Vacancy Notification for the post of Young Professional-II (01 Post) at ICAR-NBSS&LUP, Nagpur – Walk-in Interview at ICAR-IISR, Kozhikode on 25.11.2026",
@@ -91,7 +92,7 @@
       ],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22"
+      "last_seen": "2026-11-23"
     },
     "iisr-9805d75a0e22": {
       "title": "Vacancy Notification for the post of Young Professional I (01 Post - Library) at ICAR-IISR, Kozhikode on 17-11-2026",
@@ -156,7 +157,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "icar-news-c883e48c57b1": {
@@ -166,7 +167,7 @@
       "location": "",
       "opening_date": null,
       "last_date": null,
-      "published": "2026-11-12",
+      "published": "2026-11-11",
       "via_news": true,
       "context": "ICAR Technical Assistant Recruitment 2026: 1,393 vacancies announced;Check eligibility, exam pattern and application dates  (Education Times)",
       "id": "icar-news-c883e48c57b1",
@@ -187,7 +188,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-21",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "kvk-projects-news-8d1640bca4c7": {
@@ -249,7 +250,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "kvk-projects-news-d1c1f6750fdf": {
@@ -281,7 +282,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "kvk-projects-news-0b346ec60c87": {
@@ -343,7 +344,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "ibps-a350ecb46cf8": {
@@ -372,7 +373,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22"
+      "last_seen": "2026-11-23"
     },
     "ibps-ac3fd842c0d9": {
       "title": "Notification for Common Recruitment Process for CRP- SPL-XVI",
@@ -520,7 +521,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-4053df78a6f1": {
@@ -553,7 +554,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-74e0b25b75f1": {
@@ -586,7 +587,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-d4a180afcd08": {
@@ -618,7 +619,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-dcb91ce15f2b": {
@@ -683,7 +684,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "sau-news-c8cfe42dd343": {
@@ -714,38 +715,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
-      "enriched": true
-    },
-    "sau-news-5928305df0f8": {
-      "title": "IIT (BHU) Varanasi Recruitment 2026 – Apply Online for 8 Project Assistant, JRF and More Posts",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcVZ0M2M1dEk2QnRwQVJTVzNjWWNCTS1rQ0JVWklOaDVYRzZKbWVNRUJ3cU8wZWZialVkZlNxeW0wWlgtcGxIVjQweWtXY2JlOF8wR1AtdjNxcy04N2liTDF0TDR2eWlyTEhNekppdkxBc3pxMUhuOHViU2gzRjF5aGpESWZka181SkJ4NjV3RXdXRmU4QzNCbjZxRkxYQmNNakNlYmpEYTVfak8ybnFZQnBhSmIycEtvXzFsa1ZHMjlUWlF1aHd5VUFHWF9ZUEZh?oc=5",
-      "advt_no": "",
-      "location": "",
-      "opening_date": null,
-      "last_date": null,
-      "published": "2026-10-08",
-      "via_news": true,
-      "context": "IIT (BHU) Varanasi Recruitment 2026 – Apply Online for 8 Project Assistant, JRF and More Posts  (FreeJobAlert.Com)",
-      "id": "sau-news-5928305df0f8",
-      "source_id": "sau-news",
-      "org": "State Agricultural Universities (teaching & scientist posts)",
-      "category": "academia",
-      "apply_page": "https://icar.org.in/",
-      "checklist": "professor",
-      "score": 4,
-      "matched": [
-        "jrf",
-        "recruitment"
-      ],
-      "applied": false,
-      "dismissed": false,
-      "deadline_override": null,
-      "notes": "",
-      "notified": [],
-      "checked_items": [],
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-21",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "sau-news-29aba8357e1a": {
@@ -776,7 +746,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "sau-news-42ae14933357": {
@@ -838,7 +808,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-c72818b64adc": {
@@ -903,7 +873,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-8336c1a98882": {
@@ -966,7 +936,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "asrb-eeec21a4e78b": {
@@ -995,7 +965,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enrich_failed": true
     },
     "iiss-bhopal-89c0e192c8fa": {
@@ -1025,7 +995,7 @@
       ],
       "checked_items": [],
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-22"
+      "last_seen": "2026-11-23"
     },
     "iiss-bhopal-0a89852c85bb": {
       "title": "Walk in Interview for JRF post on 27 Nov 2026",
@@ -1056,7 +1026,7 @@
       ],
       "checked_items": [],
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-22"
+      "last_seen": "2026-11-23"
     },
     "icar-news-b909a3366ff9": {
       "title": "HPPSC ADO Recruitment 2026 - Apply Online for 23 Agriculture Development Officer Posts",
@@ -1184,7 +1154,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-a6e9d37b4823": {
@@ -1280,7 +1250,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "professor-news-d65d2a6b1f45": {
@@ -1407,7 +1377,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "sau-news-deceee853219": {
@@ -1438,7 +1408,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "kvk-projects-news-51d6d1beded7": {
@@ -1532,7 +1502,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "enriched": true
     },
     "fellowship-news-9c36bef432b2": {
@@ -1568,8 +1538,8 @@
     }
   },
   "meta": {
-    "last_run": "2026-11-22T18:15:18",
-    "new_count": 1,
+    "last_run": "2026-11-23T11:09:34",
+    "new_count": 0,
     "event_count": 1
   },
   "source_health": {
@@ -1577,187 +1547,187 @@
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-22T18:12:59"
+      "at": "2026-11-23T11:07:15"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-22T18:13:00"
+      "at": "2026-11-23T11:07:18"
     },
     "asrb": {
       "ok": true,
       "scanned": 13,
       "found": 2,
-      "at": "2026-11-22T18:13:02"
+      "at": "2026-11-23T11:07:19"
     },
     "iisr": {
       "ok": true,
-      "scanned": 6,
+      "scanned": 5,
       "found": 2,
-      "at": "2026-11-22T18:13:04"
+      "at": "2026-11-23T11:07:22"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-22T18:13:05"
+      "at": "2026-11-23T11:07:22"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-22T18:13:12"
+      "at": "2026-11-23T11:07:25"
     },
     "icar-soil-news": {
       "ok": true,
       "scanned": 7,
       "found": 1,
-      "at": "2026-11-22T18:13:13"
+      "at": "2026-11-23T11:07:25"
     },
     "icar-news": {
       "ok": true,
-      "scanned": 15,
-      "found": 2,
-      "at": "2026-11-22T18:13:13"
+      "scanned": 19,
+      "found": 3,
+      "at": "2026-11-23T11:07:25"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 54,
+      "scanned": 52,
       "found": 4,
-      "at": "2026-11-22T18:13:13"
+      "at": "2026-11-23T11:07:26"
     },
     "ibps": {
       "ok": true,
       "scanned": 7,
       "found": 1,
-      "at": "2026-11-22T18:13:16"
+      "at": "2026-11-23T11:07:30"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-22T18:14:59"
+      "at": "2026-11-23T11:09:13"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 24,
+      "scanned": 43,
       "found": 0,
-      "at": "2026-11-22T18:14:59"
+      "at": "2026-11-23T11:09:13"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 8,
       "found": 0,
-      "at": "2026-11-22T18:14:59"
+      "at": "2026-11-23T11:09:14"
     },
     "iffco-news": {
       "ok": true,
       "scanned": 10,
       "found": 0,
-      "at": "2026-11-22T18:15:00"
+      "at": "2026-11-23T11:09:14"
     },
     "fert-psu-news": {
       "ok": true,
-      "scanned": 31,
+      "scanned": 30,
       "found": 0,
-      "at": "2026-11-22T18:15:00"
+      "at": "2026-11-23T11:09:14"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 33,
+      "scanned": 34,
       "found": 0,
-      "at": "2026-11-22T18:15:01"
+      "at": "2026-11-23T11:09:15"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-22T18:15:01"
+      "at": "2026-11-23T11:09:15"
     },
     "upsc-news": {
       "ok": true,
-      "scanned": 27,
+      "scanned": 22,
       "found": 0,
-      "at": "2026-11-22T18:15:01"
+      "at": "2026-11-23T11:09:15"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-22T18:15:12"
+      "at": "2026-11-23T11:09:26"
     },
     "central-agri-news": {
       "ok": true,
       "scanned": 34,
       "found": 0,
-      "at": "2026-11-22T18:15:12"
+      "at": "2026-11-23T11:09:26"
     },
     "forest-soil-news": {
       "ok": true,
-      "scanned": 32,
+      "scanned": 27,
       "found": 0,
-      "at": "2026-11-22T18:15:12"
+      "at": "2026-11-23T11:09:27"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 46,
+      "scanned": 72,
       "found": 0,
-      "at": "2026-11-22T18:15:13"
+      "at": "2026-11-23T11:09:27"
     },
     "up-agri-news": {
       "ok": true,
       "scanned": 6,
       "found": 0,
-      "at": "2026-11-22T18:15:13"
+      "at": "2026-11-23T11:09:27"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 40,
+      "scanned": 39,
       "found": 0,
-      "at": "2026-11-22T18:15:13"
+      "at": "2026-11-23T11:09:28"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 1,
       "found": 0,
-      "at": "2026-11-22T18:15:14"
+      "at": "2026-11-23T11:09:29"
     },
     "pau": {
       "ok": true,
-      "scanned": 2,
+      "scanned": 3,
       "found": 0,
-      "at": "2026-11-22T18:15:15"
+      "at": "2026-11-23T11:09:30"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 21,
+      "scanned": 22,
       "found": 6,
-      "at": "2026-11-22T18:15:15"
+      "at": "2026-11-23T11:09:31"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 32,
+      "scanned": 56,
       "found": 6,
-      "at": "2026-11-22T18:15:15"
+      "at": "2026-11-23T11:09:31"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 51,
-      "found": 1,
-      "at": "2026-11-22T18:15:16"
+      "scanned": 10,
+      "found": 0,
+      "at": "2026-11-23T11:09:31"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 31,
+      "scanned": 30,
       "found": 0,
-      "at": "2026-11-22T18:15:16"
+      "at": "2026-11-23T11:09:32"
     },
     "cgiar-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 8,
       "found": 0,
-      "at": "2026-11-22T18:15:17"
+      "at": "2026-11-23T11:09:32"
     }
   }
 }
