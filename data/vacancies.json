@@ -588,7 +588,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "enriched": true
     },
     "professor-news-d4a180afcd08": {
@@ -1441,7 +1441,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-24",
       "enriched": true
     },
     "kvk-projects-news-50e25366b18e": {
@@ -1472,7 +1472,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-24",
       "enriched": true
     },
     "professor-news-2a02929a33cb": {
@@ -1635,199 +1635,230 @@
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
       "enriched": true
+    },
+    "sau-news-c00ddac54eb2": {
+      "title": "GBPUAT Research Associate Recruitment 2026 – Apply Offline",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeFBkellFSV9ud0xoWVFVN0JVV2stTWtpdUtRZDZfWlNjVk5abU4zRk51TldEMXJBZmtSeGliYWdoSVNMUXozeWstX3Z5S2c5RWt2UVI4anJBX1Bvc3lsWFVYbUhQLXhPZkNCS004MndjTG1IMDRsaUFfSVRKbzZicXk4TnNqeHBWNDVNaHZiNF92QnJWaGRTNUo1YTdmTHVfQ2w5NQ?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-04",
+      "via_news": true,
+      "context": "GBPUAT Research Associate Recruitment 2026 – Apply Offline  (FreeJobAlert.Com)",
+      "id": "sau-news-c00ddac54eb2",
+      "source_id": "sau-news",
+      "org": "State Agricultural Universities (teaching & scientist posts)",
+      "category": "academia",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "professor",
+      "score": 4,
+      "matched": [
+        "research associate",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-24T12:55:08",
+    "last_run": "2026-11-24T21:01:59",
     "new_count": 1,
-    "event_count": 3
+    "event_count": 1
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-24T12:51:56"
+      "at": "2026-11-24T20:59:10"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-24T12:51:57"
+      "at": "2026-11-24T20:59:11"
     },
     "asrb": {
       "ok": true,
       "scanned": 13,
       "found": 2,
-      "at": "2026-11-24T12:51:58"
+      "at": "2026-11-24T20:59:13"
     },
     "iisr": {
       "ok": false,
       "error": "could not fetch https://www.spices.res.in/: HTTPSConnectionPool(host='www.spices.res.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.spices.r",
       "expected": false,
-      "at": "2026-11-24T12:52:58"
+      "at": "2026-11-24T20:59:47"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-24T12:52:59"
+      "at": "2026-11-24T20:59:48"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-24T12:53:01"
+      "at": "2026-11-24T20:59:50"
     },
     "icar-soil-news": {
       "ok": true,
       "scanned": 9,
       "found": 1,
-      "at": "2026-11-24T12:53:02"
+      "at": "2026-11-24T20:59:50"
     },
     "icar-news": {
       "ok": true,
       "scanned": 16,
       "found": 1,
-      "at": "2026-11-24T12:53:02"
+      "at": "2026-11-24T20:59:50"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 56,
-      "found": 4,
-      "at": "2026-11-24T12:53:02"
+      "scanned": 100,
+      "found": 6,
+      "at": "2026-11-24T20:59:51"
     },
     "ibps": {
       "ok": true,
       "scanned": 9,
       "found": 3,
-      "at": "2026-11-24T12:53:04"
+      "at": "2026-11-24T20:59:53"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-24T12:54:48"
+      "at": "2026-11-24T21:01:34"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 38,
+      "scanned": 36,
       "found": 0,
-      "at": "2026-11-24T12:54:48"
+      "at": "2026-11-24T21:01:35"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 8,
       "found": 0,
-      "at": "2026-11-24T12:54:49"
+      "at": "2026-11-24T21:01:35"
     },
     "iffco-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-24T12:54:49"
+      "at": "2026-11-24T21:01:35"
     },
     "fert-psu-news": {
       "ok": true,
-      "scanned": 74,
+      "scanned": 30,
       "found": 0,
-      "at": "2026-11-24T12:54:50"
+      "at": "2026-11-24T21:01:36"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 54,
+      "scanned": 34,
       "found": 0,
-      "at": "2026-11-24T12:54:50"
+      "at": "2026-11-24T21:01:36"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-24T12:54:50"
+      "at": "2026-11-24T21:01:36"
     },
     "upsc-news": {
       "ok": true,
-      "scanned": 52,
+      "scanned": 21,
       "found": 0,
-      "at": "2026-11-24T12:54:51"
+      "at": "2026-11-24T21:01:38"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-24T12:55:01"
+      "at": "2026-11-24T21:01:49"
     },
     "central-agri-news": {
       "ok": true,
-      "scanned": 59,
+      "scanned": 34,
       "found": 0,
-      "at": "2026-11-24T12:55:01"
+      "at": "2026-11-24T21:01:49"
     },
     "forest-soil-news": {
       "ok": true,
       "scanned": 64,
       "found": 0,
-      "at": "2026-11-24T12:55:02"
+      "at": "2026-11-24T21:01:50"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 46,
+      "scanned": 44,
       "found": 0,
-      "at": "2026-11-24T12:55:02"
+      "at": "2026-11-24T21:01:50"
     },
     "up-agri-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "found": 1,
-      "at": "2026-11-24T12:55:02"
+      "at": "2026-11-24T21:01:50"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 60,
+      "scanned": 64,
       "found": 0,
-      "at": "2026-11-24T12:55:03"
+      "at": "2026-11-24T21:01:51"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 1,
       "found": 0,
-      "at": "2026-11-24T12:55:03"
+      "at": "2026-11-24T21:01:51"
     },
     "pau": {
       "ok": true,
       "scanned": 3,
       "found": 0,
-      "at": "2026-11-24T12:55:05"
+      "at": "2026-11-24T21:01:54"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 22,
+      "scanned": 19,
       "found": 6,
-      "at": "2026-11-24T12:55:05"
+      "at": "2026-11-24T21:01:54"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 26,
-      "found": 5,
-      "at": "2026-11-24T12:55:05"
+      "scanned": 71,
+      "found": 6,
+      "at": "2026-11-24T21:01:54"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 53,
+      "scanned": 54,
       "found": 1,
-      "at": "2026-11-24T12:55:06"
+      "at": "2026-11-24T21:01:57"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 74,
+      "scanned": 75,
       "found": 0,
-      "at": "2026-11-24T12:55:06"
+      "at": "2026-11-24T21:01:57"
     },
     "cgiar-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 10,
       "found": 0,
-      "at": "2026-11-24T12:55:07"
+      "at": "2026-11-24T21:01:57"
     }
   }
 }

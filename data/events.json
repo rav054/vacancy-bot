@@ -1,37 +1,13 @@
 {
-  "generated": "2026-11-24T12:55:08",
+  "generated": "2026-11-24T21:01:59",
   "events": [
     {
-      "kind": "deadline",
-      "id": "iisr-58b048c5b58d",
-      "org": "ICAR-IISR Kozhikode (also carries other ICAR notices)",
-      "title": "Vacancy Notification for the post of Young Professional-II (01 Post) at ICAR-NBSS&LUP, Nagpur – Walk-in Interview at ICAR-IISR, Kozhikode on 25.11.2026",
-      "url": "https://www.spices.res.in/storage/app/public/media/Notification_-_NICRA_-_NBSS.pdf",
-      "apply_page": "https://www.spices.res.in/",
-      "days_left": 1,
-      "last_date": "2026-11-25",
-      "threshold": 1,
-      "urgency": "critical"
-    },
-    {
-      "kind": "deadline",
-      "id": "iiss-bhopal-0a89852c85bb",
-      "org": "ICAR-IISS Bhopal (Indian Institute of Soil Science)",
-      "title": "Walk in Interview for JRF post on 27 Nov 2026",
-      "url": "https://iiss.res.in/Recruitment/2026/181126A.pdf",
-      "apply_page": "https://iiss.res.in/recruitment.php",
-      "days_left": 3,
-      "last_date": "2026-11-27",
-      "threshold": 3,
-      "urgency": "critical"
-    },
-    {
       "kind": "new",
-      "id": "up-agri-news-7c3b350aacd9",
-      "org": "UP state (UPPSC, UPESSC, ADO & agriculture dept)",
-      "title": "MPSC replaces assistant agriculture officer post with Krishi Sevak in Group C recruitment Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVmc0NktHVWNNZE1YdjdFQVBGLWtsbkMtbERJWDFiYzdwYWl1dDUwNU1ySENFN2ZDYUNRRkRpNVdJSFFKMmgwMnVOSjVKNXBNNkNsVjZxMWpnSy1ZeVJLNTAxR1F0bXBWclpWSlpPeUgzT0lBS2tvSE5nTzMwd0hPd0hFQm1SU0t0Rm9nNGhGYllITzZLWk1SMFBxUHRoSXVmU3huVFN2RXlPLV83X1hpZWZ6VmVrUmdSSlh2Sm1FNGJYQ0RYM3lxaWM1OFpnQXlmQkNQYjd5b3Aycm1FWlhwRHB6OHB3M1l4UlI2Q3B1a9IB9AFBVV95cUxOeXVNRVliRWVvR1N4bEpuNGdqcExvUUV1VVBBWjNtMzdBVG1HVk80aXA2TGdLMmZ4ckxjZGoyRk5Wc1lfQWlOZm1GX1AybzhaUHR2SnVxNnptNGowdjJmeG1QWGU2ZWVEZnhyNngwTVJqTFN4dTBHWmlJWVk4WmtxemE4Wlc2eGV2emN0LV9PbW1nWUhiNlEzN0hjLTBuZktEcUNMcW83QXB2M3BWaktfTVBxS0lrQ2dMSUowQXNsZUpEd1QyZ3pTRjU3UnhQQjJXWU8yWVh3S2lMMVFYQXNwRFFwNGpxaHVPNnRJZWVmWExzU3J5?oc=5",
-      "apply_page": "https://uppsc.up.nic.in/",
+      "id": "sau-news-c00ddac54eb2",
+      "org": "State Agricultural Universities (teaching & scientist posts)",
+      "title": "GBPUAT Research Associate Recruitment 2026 – Apply Offline",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeFBkellFSV9ud0xoWVFVN0JVV2stTWtpdUtRZDZfWlNjVk5abU4zRk51TldEMXJBZmtSeGliYWdoSVNMUXozeWstX3Z5S2c5RWt2UVI4anJBX1Bvc3lsWFVYbUhQLXhPZkNCS004MndjTG1IMDRsaUFfSVRKbzZicXk4TnNqeHBWNDVNaHZiNF92QnJWaGRTNUo1YTdmTHVfQ2w5NQ?oc=5",
+      "apply_page": "https://icar.org.in/",
       "days_left": null,
       "last_date": null,
       "via_news": true,
