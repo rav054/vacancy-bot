@@ -26,7 +26,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24"
+      "last_seen": "2026-11-25"
     },
     "iisr-75f40b70c336": {
       "title": "Vacancy Notification for the post of Young Professional II (01 Post) at ICAR-IISR, Kozhikode on 26-11-2026",
@@ -55,11 +55,12 @@
         14,
         21,
         7,
-        3
+        3,
+        1
       ],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23"
+      "last_seen": "2026-11-25"
     },
     "iisr-58b048c5b58d": {
       "title": "Vacancy Notification for the post of Young Professional-II (01 Post) at ICAR-NBSS&LUP, Nagpur – Walk-in Interview at ICAR-IISR, Kozhikode on 25.11.2026",
@@ -89,11 +90,12 @@
         21,
         7,
         3,
-        1
+        1,
+        0
       ],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23"
+      "last_seen": "2026-11-25"
     },
     "iisr-9805d75a0e22": {
       "title": "Vacancy Notification for the post of Young Professional I (01 Post - Library) at ICAR-IISR, Kozhikode on 17-11-2026",
@@ -158,7 +160,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "icar-news-c883e48c57b1": {
@@ -189,7 +191,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "kvk-projects-news-8d1640bca4c7": {
@@ -220,7 +222,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "kvk-projects-news-1b7e9edbc6e3": {
@@ -251,7 +253,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "kvk-projects-news-d1c1f6750fdf": {
@@ -283,7 +285,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "kvk-projects-news-0b346ec60c87": {
@@ -345,7 +347,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "ibps-a350ecb46cf8": {
@@ -374,7 +376,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24"
+      "last_seen": "2026-11-25"
     },
     "ibps-ac3fd842c0d9": {
       "title": "Notification for Common Recruitment Process for CRP- SPL-XVI",
@@ -403,7 +405,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24"
+      "last_seen": "2026-11-25"
     },
     "ibps-2cd0e5556f04": {
       "title": "Window Notification for CRP-PO/MTs -XVI and SPL-XVI",
@@ -431,7 +433,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24"
+      "last_seen": "2026-11-25"
     },
     "rac-drdo-e9c38e69aee9": {
       "title": "Requirement of Valid GATE Score for Direct Recruitment of Scientist 'B' (Group A Gazetted) post in Defence Research & Development Service (DRDS) cadre of DRDO",
@@ -522,7 +524,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "professor-news-4053df78a6f1": {
@@ -555,7 +557,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "professor-news-74e0b25b75f1": {
@@ -620,7 +622,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "professor-news-dcb91ce15f2b": {
@@ -652,7 +654,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "sau-news-058ee353478d": {
@@ -685,7 +687,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "sau-news-c8cfe42dd343": {
@@ -716,7 +718,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "sau-news-29aba8357e1a": {
@@ -747,7 +749,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "sau-news-42ae14933357": {
@@ -809,7 +811,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "professor-news-c72818b64adc": {
@@ -874,7 +876,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "professor-news-8336c1a98882": {
@@ -966,7 +968,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enrich_failed": true
     },
     "iiss-bhopal-89c0e192c8fa": {
@@ -996,7 +998,7 @@
       ],
       "checked_items": [],
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-24"
+      "last_seen": "2026-11-25"
     },
     "iiss-bhopal-0a89852c85bb": {
       "title": "Walk in Interview for JRF post on 27 Nov 2026",
@@ -1028,7 +1030,7 @@
       ],
       "checked_items": [],
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-24"
+      "last_seen": "2026-11-25"
     },
     "icar-news-b909a3366ff9": {
       "title": "HPPSC ADO Recruitment 2026 - Apply Online for 23 Agriculture Development Officer Posts",
@@ -1156,7 +1158,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "professor-news-a6e9d37b4823": {
@@ -1252,7 +1254,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "professor-news-d65d2a6b1f45": {
@@ -1379,7 +1381,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "sau-news-deceee853219": {
@@ -1410,7 +1412,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "kvk-projects-news-51d6d1beded7": {
@@ -1599,7 +1601,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "up-agri-news-7c3b350aacd9": {
@@ -1633,7 +1635,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "sau-news-c00ddac54eb2": {
@@ -1666,199 +1668,321 @@
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
       "enriched": true
+    },
+    "icar-news-5210cd60eb33": {
+      "title": "Manipur Agriculture Recruitment 2026 Notification Out For 138 ATM, BTM Posts, Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX3hDUXZnOU9UZWZpcXNWaDc1Z2F2bVBka09VYzBlR1Rpc3BwZl9qVDVNaUhoUkkzLWVuMlMzTks2SVg2Z3ZnbGRkTFlPN3hCbUQzTlJ3OFBfOUNqNXZhcTE0V3dlRWM0LXRuNmRiZVNGMXdMX0kwaVlkdTQzcV9yNWwzMGJqdw?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-14",
+      "via_news": true,
+      "context": "Manipur Agriculture Recruitment 2026 Notification Out For 138 ATM, BTM Posts, Apply Online  (Adda247)",
+      "id": "icar-news-5210cd60eb33",
+      "source_id": "icar-news",
+      "org": "ICAR institutes & Agricultural Universities",
+      "category": "research",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "professor",
+      "score": 4,
+      "matched": [
+        "agriculture",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "enriched": true
+    },
+    "icar-news-dc5578f8ee8e": {
+      "title": "ICAR-DKMA Recruitment 2026 – Apply Online for 6 Senior Consultant, Young Professional Posts",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ2xMTU9IWl9QYkpLcGN1WHpGMXNrZDlFT1ZoQW03dlF0anh2V2JhOHVuQXpyOFhfQ3ZZZDZaSzlHWXBBc2FnYnRNNTJOOHBEMmdDN3g5azQxVmJXcm5lM0FnUndpSUgxb3lqQWZweHFsZ29Sd3hSdnhMel9FUVRtZVhMd25iU1Q5Sy1LamJSMDFnOUttVEt6YUU5NURSTUdhOWFSb2kwSHg?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-25",
+      "via_news": true,
+      "context": "ICAR-DKMA Recruitment 2026 – Apply Online for 6 Senior Consultant, Young Professional Posts  (FreeJobAlert.Com)",
+      "id": "icar-news-dc5578f8ee8e",
+      "source_id": "icar-news",
+      "org": "ICAR institutes & Agricultural Universities",
+      "category": "research",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "professor",
+      "score": 4,
+      "matched": [
+        "young professional",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "enriched": true
+    },
+    "ibps-7586e03b661a": {
+      "title": "SBI Recruitment Of Specialist Cadre Officers on Regular Basis Registration From 20-Nov-2026",
+      "url": "https://ibpsreg.ibps.in/sbifteoct26/",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": "2026-11-20",
+      "context": "SBI Recruitment Of Specialist Cadre Officers on Regular Basis Registration From 20-Nov-2026",
+      "id": "ibps-7586e03b661a",
+      "source_id": "ibps",
+      "org": "IBPS (AFO / Specialist Officers, CRP-SPL)",
+      "category": "banking",
+      "apply_page": "https://www.ibps.in/index.php/specialist-officers/",
+      "checklist": "ibps",
+      "score": 5,
+      "matched": [
+        "officer",
+        "recruitment",
+        "boost:specialist"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25"
+    },
+    "sau-news-09dbb7d78223": {
+      "title": "IIT (BHU) Varanasi Junior Research Fellow Recruitment 2026 – Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTzRDZ1JkM2JEWnpqV2p2bWM5eklOZDhsbk1ubWdieEhiRWRLdmd5UDBlVjZQYVBPQlV6VzB5VVJLR0dFbC1rWWU1bU0xR3NrakwzbFZBakxUeTlKaVkzWEpGWl9DWVNwbE10aTZLTW51dHEyek8tLTNRUUdXX3NpcUE1UHVqanQ2V0w3dzN3dVlPNzZKU00xMU9COUJBSFlScDA1R2QyUzA4Wm50S2ZUQjIzM08xZw?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-10-21",
+      "via_news": true,
+      "context": "IIT (BHU) Varanasi Junior Research Fellow Recruitment 2026 – Apply Online  (FreeJobAlert.Com)",
+      "id": "sau-news-09dbb7d78223",
+      "source_id": "sau-news",
+      "org": "State Agricultural Universities (teaching & scientist posts)",
+      "category": "academia",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "professor",
+      "score": 4,
+      "matched": [
+        "junior research fellow",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-24T21:01:59",
-    "new_count": 1,
-    "event_count": 1
+    "last_run": "2026-11-25T11:43:12",
+    "new_count": 4,
+    "event_count": 5
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-24T20:59:10"
+      "at": "2026-11-25T11:39:02"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-24T20:59:11"
+      "at": "2026-11-25T11:39:05"
     },
     "asrb": {
       "ok": true,
       "scanned": 13,
       "found": 2,
-      "at": "2026-11-24T20:59:13"
+      "at": "2026-11-25T11:39:07"
     },
     "iisr": {
-      "ok": false,
-      "error": "could not fetch https://www.spices.res.in/: HTTPSConnectionPool(host='www.spices.res.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.spices.r",
-      "expected": false,
-      "at": "2026-11-24T20:59:47"
+      "ok": true,
+      "scanned": 5,
+      "found": 2,
+      "at": "2026-11-25T11:39:11"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-24T20:59:48"
+      "at": "2026-11-25T11:39:12"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-24T20:59:50"
+      "at": "2026-11-25T11:39:15"
     },
     "icar-soil-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 8,
       "found": 1,
-      "at": "2026-11-24T20:59:50"
+      "at": "2026-11-25T11:39:16"
     },
     "icar-news": {
       "ok": true,
-      "scanned": 16,
-      "found": 1,
-      "at": "2026-11-24T20:59:50"
+      "scanned": 54,
+      "found": 5,
+      "at": "2026-11-25T11:39:16"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 100,
-      "found": 6,
-      "at": "2026-11-24T20:59:51"
+      "scanned": 55,
+      "found": 5,
+      "at": "2026-11-25T11:39:16"
     },
     "ibps": {
       "ok": true,
-      "scanned": 9,
-      "found": 3,
-      "at": "2026-11-24T20:59:53"
+      "scanned": 10,
+      "found": 4,
+      "at": "2026-11-25T11:39:21"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-24T21:01:34"
+      "at": "2026-11-25T11:41:07"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 36,
+      "scanned": 34,
       "found": 0,
-      "at": "2026-11-24T21:01:35"
+      "at": "2026-11-25T11:41:09"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 8,
       "found": 0,
-      "at": "2026-11-24T21:01:35"
+      "at": "2026-11-25T11:41:09"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 28,
       "found": 0,
-      "at": "2026-11-24T21:01:35"
+      "at": "2026-11-25T11:41:10"
     },
     "fert-psu-news": {
       "ok": true,
-      "scanned": 30,
+      "scanned": 73,
       "found": 0,
-      "at": "2026-11-24T21:01:36"
+      "at": "2026-11-25T11:41:10"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 35,
       "found": 0,
-      "at": "2026-11-24T21:01:36"
+      "at": "2026-11-25T11:41:11"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-24T21:01:36"
+      "at": "2026-11-25T11:41:11"
     },
     "upsc-news": {
       "ok": true,
       "scanned": 21,
       "found": 0,
-      "at": "2026-11-24T21:01:38"
+      "at": "2026-11-25T11:41:11"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-24T21:01:49"
+      "at": "2026-11-25T11:41:22"
     },
     "central-agri-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 32,
       "found": 0,
-      "at": "2026-11-24T21:01:49"
+      "at": "2026-11-25T11:41:22"
     },
     "forest-soil-news": {
       "ok": true,
       "scanned": 64,
       "found": 0,
-      "at": "2026-11-24T21:01:50"
+      "at": "2026-11-25T11:41:23"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 44,
+      "scanned": 72,
       "found": 0,
-      "at": "2026-11-24T21:01:50"
+      "at": "2026-11-25T11:41:23"
     },
     "up-agri-news": {
       "ok": true,
       "scanned": 9,
       "found": 1,
-      "at": "2026-11-24T21:01:50"
+      "at": "2026-11-25T11:41:24"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 64,
+      "scanned": 37,
       "found": 0,
-      "at": "2026-11-24T21:01:51"
+      "at": "2026-11-25T11:41:24"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 1,
       "found": 0,
-      "at": "2026-11-24T21:01:51"
+      "at": "2026-11-25T11:41:24"
     },
     "pau": {
-      "ok": true,
-      "scanned": 3,
-      "found": 0,
-      "at": "2026-11-24T21:01:54"
+      "ok": false,
+      "error": "could not fetch https://www.pau.edu/: HTTPSConnectionPool(host='pau.edu', port=443): Read timed out. (read timeout=30)",
+      "expected": false,
+      "at": "2026-11-25T11:43:03"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 19,
+      "scanned": 20,
       "found": 6,
-      "at": "2026-11-24T21:01:54"
+      "at": "2026-11-25T11:43:04"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 71,
+      "scanned": 67,
       "found": 6,
-      "at": "2026-11-24T21:01:54"
+      "at": "2026-11-25T11:43:04"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 54,
-      "found": 1,
-      "at": "2026-11-24T21:01:57"
+      "scanned": 10,
+      "found": 0,
+      "at": "2026-11-25T11:43:04"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 75,
+      "scanned": 31,
       "found": 0,
-      "at": "2026-11-24T21:01:57"
+      "at": "2026-11-25T11:43:05"
     },
     "cgiar-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-24T21:01:57"
+      "at": "2026-11-25T11:43:10"
     }
   }
 }
