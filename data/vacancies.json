@@ -1537,7 +1537,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "professor-news-44e5f511c59b": {
@@ -1666,7 +1666,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "enriched": true
     },
     "icar-news-5210cd60eb33": {
@@ -1790,199 +1790,262 @@
       "first_seen": "2026-11-25",
       "last_seen": "2026-11-25",
       "enriched": true
+    },
+    "icar-news-02e38244d153": {
+      "title": "Manipur Agriculture Department Recruitment 2026: 2 Vacancies, Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORWR5ZEpGNk5HTTFGYjh4aHV0UHV5eVRZR19UemRoV0VlVmNJUlhla05jdU5Pb0s2UWtQWkhXdmtRdGhYVnJhNVE4SXFWaTB5UDV5R0hiRHpjUk10YVN0aV9JQXFiMnkzODJ3WEdndEF2ODFndEVFdDViZUtqRWo0X05xb09pTEdEYkJfYzdUMC1ocjZOcU5scHpJNkRRXy1ZX3VKb2FXYzZGNVhnWGMw?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-05",
+      "via_news": true,
+      "context": "Manipur Agriculture Department Recruitment 2026: 2 Vacancies, Apply Online  (FreeJobAlert.Com)",
+      "id": "icar-news-02e38244d153",
+      "source_id": "icar-news",
+      "org": "ICAR institutes & Agricultural Universities",
+      "category": "research",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "professor",
+      "score": 4,
+      "matched": [
+        "agriculture",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "enriched": true
+    },
+    "professor-news-3b6f6e3f91a0": {
+      "title": "PDKV Assistant Professor in Computer Science (Contractual) Recruitment 2026: Walk-in",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWi1zRDlYY1EtS2J3YzZwS00zemo5cy1jUmo4clBtTUMxYmZwTlZSZ1lGVFJpVlJ0bGVEdlh6cTZEdHJabHI2WGQ3NlltOFFVWk45VkpiSGRCbVpBVVNHN1dBTUxuLXd3a0g1M3djWHF2clNtZ0Rxb1FxT1MtTEdxeTRjeEMwUFM4T1lVM296VzhOY3ZwaGZBZTlkc3ducmFjaWVGdHJGZTctYmc?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-07",
+      "via_news": true,
+      "context": "PDKV Assistant Professor in Computer Science (Contractual) Recruitment 2026: Walk-in  (FreeJobAlert.Com)",
+      "id": "professor-news-3b6f6e3f91a0",
+      "source_id": "professor-news",
+      "org": "Professor / Assistant Professor (Soil Science & Agri)",
+      "category": "academia",
+      "apply_page": "https://www.ugc.gov.in/",
+      "checklist": "professor",
+      "score": 7,
+      "matched": [
+        "assistant professor",
+        "professor",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-25T11:43:12",
-    "new_count": 4,
-    "event_count": 5
+    "last_run": "2026-11-25T20:24:57",
+    "new_count": 2,
+    "event_count": 2
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-25T11:39:02"
+      "at": "2026-11-25T20:22:47"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-25T11:39:05"
+      "at": "2026-11-25T20:22:47"
     },
     "asrb": {
       "ok": true,
       "scanned": 13,
       "found": 2,
-      "at": "2026-11-25T11:39:07"
+      "at": "2026-11-25T20:22:49"
     },
     "iisr": {
       "ok": true,
       "scanned": 5,
       "found": 2,
-      "at": "2026-11-25T11:39:11"
+      "at": "2026-11-25T20:22:51"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-25T11:39:12"
+      "at": "2026-11-25T20:22:52"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-25T11:39:15"
+      "at": "2026-11-25T20:22:56"
     },
     "icar-soil-news": {
       "ok": true,
-      "scanned": 8,
+      "scanned": 9,
       "found": 1,
-      "at": "2026-11-25T11:39:16"
+      "at": "2026-11-25T20:22:56"
     },
     "icar-news": {
       "ok": true,
       "scanned": 54,
-      "found": 5,
-      "at": "2026-11-25T11:39:16"
+      "found": 6,
+      "at": "2026-11-25T20:22:57"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 55,
+      "scanned": 53,
       "found": 5,
-      "at": "2026-11-25T11:39:16"
+      "at": "2026-11-25T20:22:57"
     },
     "ibps": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "found": 4,
-      "at": "2026-11-25T11:39:21"
+      "at": "2026-11-25T20:22:59"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-25T11:41:07"
+      "at": "2026-11-25T20:24:39"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 32,
       "found": 0,
-      "at": "2026-11-25T11:41:09"
+      "at": "2026-11-25T20:24:39"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 8,
       "found": 0,
-      "at": "2026-11-25T11:41:09"
+      "at": "2026-11-25T20:24:39"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 28,
+      "scanned": 11,
       "found": 0,
-      "at": "2026-11-25T11:41:10"
+      "at": "2026-11-25T20:24:40"
     },
     "fert-psu-news": {
       "ok": true,
-      "scanned": 73,
+      "scanned": 74,
       "found": 0,
-      "at": "2026-11-25T11:41:10"
+      "at": "2026-11-25T20:24:40"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 35,
+      "scanned": 55,
       "found": 0,
-      "at": "2026-11-25T11:41:11"
+      "at": "2026-11-25T20:24:40"
     },
     "dairy-coop-news": {
       "ok": true,
       "scanned": 5,
       "found": 0,
-      "at": "2026-11-25T11:41:11"
+      "at": "2026-11-25T20:24:41"
     },
     "upsc-news": {
       "ok": true,
-      "scanned": 21,
+      "scanned": 23,
       "found": 0,
-      "at": "2026-11-25T11:41:11"
+      "at": "2026-11-25T20:24:41"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-25T11:41:22"
+      "at": "2026-11-25T20:24:51"
     },
     "central-agri-news": {
       "ok": true,
       "scanned": 32,
       "found": 0,
-      "at": "2026-11-25T11:41:22"
+      "at": "2026-11-25T20:24:51"
     },
     "forest-soil-news": {
       "ok": true,
-      "scanned": 64,
+      "scanned": 33,
       "found": 0,
-      "at": "2026-11-25T11:41:23"
+      "at": "2026-11-25T20:24:52"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 72,
+      "scanned": 44,
       "found": 0,
-      "at": "2026-11-25T11:41:23"
+      "at": "2026-11-25T20:24:52"
     },
     "up-agri-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 8,
       "found": 1,
-      "at": "2026-11-25T11:41:24"
+      "at": "2026-11-25T20:24:52"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 37,
+      "scanned": 67,
       "found": 0,
-      "at": "2026-11-25T11:41:24"
+      "at": "2026-11-25T20:24:53"
     },
     "state-agri-dept-news": {
       "ok": true,
       "scanned": 1,
       "found": 0,
-      "at": "2026-11-25T11:41:24"
+      "at": "2026-11-25T20:24:53"
     },
     "pau": {
-      "ok": false,
-      "error": "could not fetch https://www.pau.edu/: HTTPSConnectionPool(host='pau.edu', port=443): Read timed out. (read timeout=30)",
-      "expected": false,
-      "at": "2026-11-25T11:43:03"
+      "ok": true,
+      "scanned": 3,
+      "found": 0,
+      "at": "2026-11-25T20:24:54"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 20,
+      "scanned": 21,
       "found": 6,
-      "at": "2026-11-25T11:43:04"
+      "at": "2026-11-25T20:24:54"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 67,
+      "scanned": 61,
       "found": 6,
-      "at": "2026-11-25T11:43:04"
+      "at": "2026-11-25T20:24:55"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 10,
-      "found": 0,
-      "at": "2026-11-25T11:43:04"
+      "scanned": 53,
+      "found": 1,
+      "at": "2026-11-25T20:24:55"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 31,
+      "scanned": 29,
       "found": 0,
-      "at": "2026-11-25T11:43:05"
+      "at": "2026-11-25T20:24:56"
     },
     "cgiar-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-25T11:43:10"
+      "at": "2026-11-25T20:24:56"
     }
   }
 }
