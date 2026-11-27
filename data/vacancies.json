@@ -845,7 +845,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-27",
       "enriched": true
     },
     "sau-news-fa68abd4ad34": {
@@ -2081,199 +2081,261 @@
       "checked_items": [],
       "first_seen": "2026-11-27",
       "last_seen": "2026-11-27"
+    },
+    "state-agri-dept-news-f466ffd129fe": {
+      "title": "MPKV Recruitment 2026 – Apply Offline for Agriculture Assistant / Field Assistant Posts",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVVdvTE4yTmQxcmw4UUFsYTM4eTlYdU43ZDlaMDVXY3V4S1RMeWdWdnRyLTZqNFBkeDE3OHRxNmhNamxaZkcxQnNJZXdPbmF0UUNkc2FmTEJoeV9EMW55bGQwN2ZrcHpfMWswZ2NKdFNURjc2S3UwQUZNMVJRNjJsQmJhRHE2SW82MUdHUEJ6ZTFrdGZwUVBlQnl2UW5ZQUpaM2Mwa2pYNUI?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-27",
+      "via_news": true,
+      "context": "MPKV Recruitment 2026 – Apply Offline for Agriculture Assistant / Field Assistant Posts  (FreeJobAlert.Com)",
+      "id": "state-agri-dept-news-f466ffd129fe",
+      "source_id": "state-agri-dept-news",
+      "org": "State agriculture departments & boards",
+      "category": "state",
+      "apply_page": "https://agriwelfare.gov.in/",
+      "checklist": "state-psc",
+      "score": 4,
+      "matched": [
+        "agriculture",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "enriched": true
+    },
+    "sau-news-48c099e15756": {
+      "title": "IIT (BHU) Project Research Scientist 1 Recruitment 2026 – Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdGVlQ2h4em5RRF93TklncE5wM0UyMjc4X1F4cFRWMnQ4cWFEM0kxZVdnUUdNb1dYTG1qaGU2d1Y4VG1pOVRiUHdkelRDQkpCeHQzaWN6OGxNRWhpVlZiUmF2RWtYSk5tSHlLeEp4MjYwdG9femZMLVNyMGVEQ1B0MDAyb0IxWndRM1dDYkRIU3d5RkpiOUlSZERGUzBVTy1qSzJWZ09rNXlreXA1d0lnSg?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-27",
+      "via_news": true,
+      "context": "IIT (BHU) Project Research Scientist 1 Recruitment 2026 – Apply Online  (FreeJobAlert.Com)",
+      "id": "sau-news-48c099e15756",
+      "source_id": "sau-news",
+      "org": "State Agricultural Universities (teaching & scientist posts)",
+      "category": "academia",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "professor",
+      "score": 4,
+      "matched": [
+        "scientist",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-27T11:21:29",
-    "new_count": 3,
-    "event_count": 6
+    "last_run": "2026-11-27T19:49:55",
+    "new_count": 2,
+    "event_count": 2
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-27T11:19:07"
+      "at": "2026-11-27T19:47:37"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-27T11:19:08"
+      "at": "2026-11-27T19:47:38"
     },
     "asrb": {
       "ok": true,
-      "scanned": 13,
-      "found": 2,
-      "at": "2026-11-27T11:19:10"
+      "scanned": 0,
+      "found": 0,
+      "at": "2026-11-27T19:47:39"
     },
     "iisr": {
       "ok": true,
       "scanned": 5,
       "found": 2,
-      "at": "2026-11-27T11:19:12"
+      "at": "2026-11-27T19:47:43"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-27T11:19:12"
+      "at": "2026-11-27T19:47:43"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-27T11:19:19"
+      "at": "2026-11-27T19:47:45"
     },
     "icar-soil-news": {
       "ok": true,
       "scanned": 8,
       "found": 1,
-      "at": "2026-11-27T11:19:19"
+      "at": "2026-11-27T19:47:46"
     },
     "icar-news": {
       "ok": true,
       "scanned": 72,
-      "found": 6,
-      "at": "2026-11-27T11:19:19"
+      "found": 4,
+      "at": "2026-11-27T19:47:46"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 53,
+      "scanned": 54,
       "found": 4,
-      "at": "2026-11-27T11:19:20"
+      "at": "2026-11-27T19:47:46"
     },
     "ibps": {
       "ok": true,
       "scanned": 9,
       "found": 3,
-      "at": "2026-11-27T11:19:24"
+      "at": "2026-11-27T19:47:48"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-27T11:21:06"
+      "at": "2026-11-27T19:49:34"
     },
     "nabard-news": {
       "ok": true,
-      "scanned": 38,
+      "scanned": 34,
       "found": 0,
-      "at": "2026-11-27T11:21:06"
+      "at": "2026-11-27T19:49:34"
     },
     "bank-agri-news": {
       "ok": true,
       "scanned": 9,
       "found": 0,
-      "at": "2026-11-27T11:21:06"
+      "at": "2026-11-27T19:49:35"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-27T11:21:07"
+      "at": "2026-11-27T19:49:35"
     },
     "fert-psu-news": {
       "ok": true,
-      "scanned": 76,
+      "scanned": 33,
       "found": 0,
-      "at": "2026-11-27T11:21:07"
+      "at": "2026-11-27T19:49:35"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 32,
+      "scanned": 31,
       "found": 0,
-      "at": "2026-11-27T11:21:07"
+      "at": "2026-11-27T19:49:36"
     },
     "dairy-coop-news": {
       "ok": true,
-      "scanned": 3,
+      "scanned": 4,
       "found": 0,
-      "at": "2026-11-27T11:21:08"
+      "at": "2026-11-27T19:49:36"
     },
     "upsc-news": {
       "ok": true,
-      "scanned": 47,
+      "scanned": 45,
       "found": 0,
-      "at": "2026-11-27T11:21:08"
+      "at": "2026-11-27T19:49:36"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-27T11:21:19"
+      "at": "2026-11-27T19:49:47"
     },
     "central-agri-news": {
       "ok": true,
-      "scanned": 69,
+      "scanned": 30,
       "found": 0,
-      "at": "2026-11-27T11:21:19"
+      "at": "2026-11-27T19:49:47"
     },
     "forest-soil-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 74,
       "found": 0,
-      "at": "2026-11-27T11:21:19"
+      "at": "2026-11-27T19:49:48"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 69,
+      "scanned": 36,
       "found": 0,
-      "at": "2026-11-27T11:21:20"
+      "at": "2026-11-27T19:49:49"
     },
     "up-agri-news": {
       "ok": true,
       "scanned": 8,
       "found": 1,
-      "at": "2026-11-27T11:21:20"
+      "at": "2026-11-27T19:49:50"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 41,
+      "scanned": 67,
       "found": 0,
-      "at": "2026-11-27T11:21:21"
+      "at": "2026-11-27T19:49:50"
     },
     "state-agri-dept-news": {
       "ok": true,
-      "scanned": 3,
-      "found": 0,
-      "at": "2026-11-27T11:21:23"
+      "scanned": 6,
+      "found": 1,
+      "at": "2026-11-27T19:49:50"
     },
     "pau": {
       "ok": true,
       "scanned": 3,
       "found": 0,
-      "at": "2026-11-27T11:21:24"
+      "at": "2026-11-27T19:49:52"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 68,
+      "scanned": 34,
       "found": 6,
-      "at": "2026-11-27T11:21:24"
+      "at": "2026-11-27T19:49:52"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 43,
-      "found": 5,
-      "at": "2026-11-27T11:21:25"
+      "scanned": 59,
+      "found": 6,
+      "at": "2026-11-27T19:49:53"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 73,
-      "found": 2,
-      "at": "2026-11-27T11:21:25"
+      "scanned": 31,
+      "found": 0,
+      "at": "2026-11-27T19:49:53"
     },
     "private-agri-news": {
       "ok": true,
       "scanned": 30,
       "found": 0,
-      "at": "2026-11-27T11:21:27"
+      "at": "2026-11-27T19:49:53"
     },
     "cgiar-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 11,
       "found": 0,
-      "at": "2026-11-27T11:21:28"
+      "at": "2026-11-27T19:49:54"
     }
   }
 }
