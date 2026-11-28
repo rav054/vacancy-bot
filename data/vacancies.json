@@ -192,7 +192,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "enriched": true
     },
     "kvk-projects-news-8d1640bca4c7": {
@@ -1354,7 +1354,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "enriched": true
     },
     "sau-news-deceee853219": {
@@ -1416,7 +1416,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-28",
       "enriched": true
     },
     "kvk-projects-news-50e25366b18e": {
@@ -1701,7 +1701,7 @@
       "notified": [],
       "checked_items": [],
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "enriched": true
     },
     "ibps-7586e03b661a": {
@@ -2207,199 +2207,231 @@
       "first_seen": "2026-11-28",
       "last_seen": "2026-11-28",
       "enriched": true
+    },
+    "kvk-projects-news-12b9930bf7ba": {
+      "title": "ICAR CIFE Recruitment 2026 – Apply Online for Research Associate, Junior Research Fellow Posts",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUHc0aXMyZ0xIVkhYUXhuVFlKRlUxNDNQQmdWbGtnQWRZZG5BUkhxeW9CeGduM2FNUGJNbGlXdXZfNTgzT0xVTmY1NlE4N29YVC1sTmRTT1ZBcExqdU1QM1NJdHFtQXhWajNrTWt5R3hSR1pxNnNibWVGcUhWdnFrOE1Ra2htLTN1NmVJSDdscmFSeHZSLVR5WHlBSHc1aUlYN0hlYllqYWZTaVdOTDQxRWxVXzRGNW9uUDFGdUZmSXQwT2N5c1BOYXBYY3JaWXdzcVNwV25B?oc=5",
+      "advt_no": "",
+      "location": "",
+      "opening_date": null,
+      "last_date": null,
+      "published": "2026-11-26",
+      "via_news": true,
+      "context": "ICAR CIFE Recruitment 2026 – Apply Online for Research Associate, Junior Research Fellow Posts  (FreeJobAlert.Com)",
+      "id": "kvk-projects-news-12b9930bf7ba",
+      "source_id": "kvk-projects-news",
+      "org": "KVK / ICAR project posts (SRF, YP, Technical Assistant)",
+      "category": "research",
+      "apply_page": "https://icar.org.in/",
+      "checklist": "icar",
+      "score": 7,
+      "matched": [
+        "research associate",
+        "junior research fellow",
+        "recruitment"
+      ],
+      "applied": false,
+      "dismissed": false,
+      "deadline_override": null,
+      "notes": "",
+      "notified": [],
+      "checked_items": [],
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "enriched": true
     }
   },
   "meta": {
-    "last_run": "2026-11-28T10:49:39",
-    "new_count": 2,
-    "event_count": 2
+    "last_run": "2026-11-28T18:42:29",
+    "new_count": 1,
+    "event_count": 1
   },
   "source_health": {
     "isro": {
       "ok": true,
       "scanned": 112,
       "found": 0,
-      "at": "2026-11-28T10:47:17"
+      "at": "2026-11-28T18:40:17"
     },
     "nrsc": {
       "ok": true,
       "scanned": 23,
       "found": 0,
-      "at": "2026-11-28T10:47:18"
+      "at": "2026-11-28T18:40:18"
     },
     "asrb": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-28T10:47:21"
+      "at": "2026-11-28T18:40:19"
     },
     "iisr": {
       "ok": true,
       "scanned": 5,
       "found": 2,
-      "at": "2026-11-28T10:47:26"
+      "at": "2026-11-28T18:40:21"
     },
     "iiss-bhopal": {
       "ok": true,
       "scanned": 30,
       "found": 2,
-      "at": "2026-11-28T10:47:26"
+      "at": "2026-11-28T18:40:22"
     },
     "iari": {
       "ok": true,
       "scanned": 0,
       "found": 0,
-      "at": "2026-11-28T10:47:30"
+      "at": "2026-11-28T18:40:24"
     },
     "icar-soil-news": {
       "ok": true,
       "scanned": 8,
       "found": 1,
-      "at": "2026-11-28T10:47:30"
+      "at": "2026-11-28T18:40:25"
     },
     "icar-news": {
       "ok": true,
-      "scanned": 30,
-      "found": 0,
-      "at": "2026-11-28T10:47:31"
+      "scanned": 72,
+      "found": 3,
+      "at": "2026-11-28T18:40:25"
     },
     "kvk-projects-news": {
       "ok": true,
-      "scanned": 51,
-      "found": 4,
-      "at": "2026-11-28T10:47:31"
+      "scanned": 100,
+      "found": 6,
+      "at": "2026-11-28T18:40:25"
     },
     "ibps": {
       "ok": true,
-      "scanned": 9,
-      "found": 3,
-      "at": "2026-11-28T10:47:33"
+      "scanned": 8,
+      "found": 2,
+      "at": "2026-11-28T18:40:30"
     },
     "nabard": {
       "ok": false,
       "error": "could not fetch https://www.nabard.org/careers-notices1.aspx?cid=693&id=26: HTTPSConnectionPool(host='www.nabard.org', port=443): Max retries exceeded with url: /careers-notices1.aspx?cid=693&id=26 (C",
       "expected": true,
-      "at": "2026-11-28T10:49:17"
+      "at": "2026-11-28T18:42:09"
     },
     "nabard-news": {
       "ok": true,
       "scanned": 13,
       "found": 0,
-      "at": "2026-11-28T10:49:18"
+      "at": "2026-11-28T18:42:10"
     },
     "bank-agri-news": {
       "ok": true,
-      "scanned": 9,
+      "scanned": 10,
       "found": 0,
-      "at": "2026-11-28T10:49:18"
+      "at": "2026-11-28T18:42:10"
     },
     "iffco-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 24,
       "found": 0,
-      "at": "2026-11-28T10:49:18"
+      "at": "2026-11-28T18:42:10"
     },
     "fert-psu-news": {
       "ok": true,
       "scanned": 76,
       "found": 0,
-      "at": "2026-11-28T10:49:19"
+      "at": "2026-11-28T18:42:11"
     },
     "fci-cwc-news": {
       "ok": true,
-      "scanned": 31,
+      "scanned": 55,
       "found": 0,
-      "at": "2026-11-28T10:49:19"
+      "at": "2026-11-28T18:42:11"
     },
     "dairy-coop-news": {
       "ok": true,
-      "scanned": 4,
+      "scanned": 3,
       "found": 0,
-      "at": "2026-11-28T10:49:20"
+      "at": "2026-11-28T18:42:11"
     },
     "upsc-news": {
       "ok": true,
-      "scanned": 29,
+      "scanned": 27,
       "found": 1,
-      "at": "2026-11-28T10:49:20"
+      "at": "2026-11-28T18:42:11"
     },
     "rac-drdo": {
       "ok": false,
       "error": "could not fetch https://rac.gov.in/: HTTPSConnectionPool(host='rac.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='rac.gov.in', port=443): Fai",
       "expected": true,
-      "at": "2026-11-28T10:49:31"
+      "at": "2026-11-28T18:42:22"
     },
     "central-agri-news": {
       "ok": true,
-      "scanned": 30,
+      "scanned": 70,
       "found": 0,
-      "at": "2026-11-28T10:49:31"
+      "at": "2026-11-28T18:42:22"
     },
     "forest-soil-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 72,
       "found": 0,
-      "at": "2026-11-28T10:49:32"
+      "at": "2026-11-28T18:42:23"
     },
     "upsssc-news": {
       "ok": true,
-      "scanned": 66,
+      "scanned": 37,
       "found": 0,
-      "at": "2026-11-28T10:49:32"
+      "at": "2026-11-28T18:42:23"
     },
     "up-agri-news": {
       "ok": true,
       "scanned": 9,
       "found": 1,
-      "at": "2026-11-28T10:49:33"
+      "at": "2026-11-28T18:42:23"
     },
     "state-psc-news": {
       "ok": true,
-      "scanned": 40,
+      "scanned": 69,
       "found": 0,
-      "at": "2026-11-28T10:49:33"
+      "at": "2026-11-28T18:42:24"
     },
     "state-agri-dept-news": {
       "ok": true,
-      "scanned": 3,
+      "scanned": 5,
       "found": 1,
-      "at": "2026-11-28T10:49:33"
+      "at": "2026-11-28T18:42:24"
     },
     "pau": {
       "ok": true,
       "scanned": 3,
       "found": 0,
-      "at": "2026-11-28T10:49:35"
+      "at": "2026-11-28T18:42:26"
     },
     "professor-news": {
       "ok": true,
-      "scanned": 34,
+      "scanned": 29,
       "found": 6,
-      "at": "2026-11-28T10:49:36"
+      "at": "2026-11-28T18:42:26"
     },
     "sau-news": {
       "ok": true,
-      "scanned": 64,
+      "scanned": 38,
       "found": 5,
-      "at": "2026-11-28T10:49:36"
+      "at": "2026-11-28T18:42:27"
     },
     "fellowship-news": {
       "ok": true,
-      "scanned": 79,
+      "scanned": 70,
       "found": 1,
-      "at": "2026-11-28T10:49:37"
+      "at": "2026-11-28T18:42:27"
     },
     "private-agri-news": {
       "ok": true,
-      "scanned": 30,
+      "scanned": 74,
       "found": 0,
-      "at": "2026-11-28T10:49:37"
+      "at": "2026-11-28T18:42:28"
     },
     "cgiar-news": {
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "found": 0,
-      "at": "2026-11-28T10:49:38"
+      "at": "2026-11-28T18:42:28"
     }
   }
 }
